@@ -2,7 +2,7 @@ import requests
 import json
 import datetime
 
-get_response = requests.get('https://www.hemkop.se/search/campaigns?page=0&size=25')
+get_response = requests.get('https://www.hemkop.se/search/campaigns?page=0&size=1000')
 
 data = get_response.json()
 
