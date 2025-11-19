@@ -1,0 +1,2807 @@
+{
+    "results": [
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": null,
+                    "promotionTheme": {
+                        "code": "Z060",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 134.9,
+                        "priceType": "BUY",
+                        "formattedValue": "134,90 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 89.89999999999999,
+                        "priceType": "BUY",
+                        "formattedValue": "89,90 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "SubtotalOrderPromotion",
+                    "conditionLabel": "Spara 45,00 kr/kg",
+                    "rewardLabel": "89,90/kg",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 2 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": null,
+                    "comparePrice": "89,90 kr/kg",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101599256_KG",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": 0.0,
+                    "priority": 609,
+                    "code": "2500261748"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 134.9,
+            "price": "134,90 kr/kg",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/02340420400003_C1L1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.84547032978,
+            "depositPrice": "",
+            "averageWeight": 1.2,
+            "comparePrice": "134,90 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ARLA, ca: 1.2kg",
+            "pickupProductLine2": "ARLA, ca: 1.2kg",
+            "priceUnit": "kr/kg",
+            "priceNoUnit": "134,90",
+            "savingsAmount": 45.00000000000001,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Arla",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/02340420400003_C1L1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "ca: 1.2kg",
+            "addToCartDisabled": false,
+            "name": "Hushållsost Göten",
+            "code": "101599256_KG"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101290116_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z060",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 129.0,
+                        "priceType": "BUY",
+                        "formattedValue": "129,00 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 79.9,
+                        "priceType": "BUY",
+                        "formattedValue": "79,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 49,10 kr/st",
+                    "rewardLabel": "79,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "4,44 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101290116_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500260962"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 129.0,
+            "price": "129,00 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/08711327343573_C1L1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.83546770834,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "7,17 kr",
+            "comparePriceUnit": "st",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GB GLACE, 18p",
+            "pickupProductLine2": "GB GLACE, 18p",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "129,00",
+            "savingsAmount": 49.1,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "frozen"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Gb Glace",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/08711327343573_C1L1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "18p",
+            "addToCartDisabled": false,
+            "name": "Klassiker Glass",
+            "code": "101290116_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101343272_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z060",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 59.9,
+                        "priceType": "BUY",
+                        "formattedValue": "59,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 49.9,
+                        "priceType": "BUY",
+                        "formattedValue": "49,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 13,00 kr/st",
+                    "rewardLabel": "49,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "71,29 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101343272_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500260984"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 62.9,
+            "price": "62,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083490163_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.82546541458,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "89,86 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ELDORADO, 700g",
+            "pickupProductLine2": "ELDORADO, 700g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "62,90",
+            "savingsAmount": 13.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "keyhole",
+                "frozen"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Eldorado",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083490163_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "700g",
+            "addToCartDisabled": false,
+            "name": "Kyckling Lårfilé Frysta",
+            "code": "101343272_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101252164_ST",
+                        "101252161_ST",
+                        "101273935_ST",
+                        "101251649_ST",
+                        "101252163_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z062",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 4.0,
+                        "priceType": "BUY",
+                        "formattedValue": "4,00 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Välj & blanda! 5 för",
+                    "rewardLabel": "20,00",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 5,
+                    "comparePrice": "47,06 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": true,
+                    "mainProductCode": "101252164_ST",
+                    "conditionLabelFormatted": "5 för",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500261656"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 4.5,
+            "price": "4,50 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083450525_C1N1_s04",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.82534581138,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "52,94 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ELDORADO, 85g",
+            "pickupProductLine2": "ELDORADO, 85g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "4,50",
+            "savingsAmount": 2.5,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Eldorado",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083450525_C1N1_s04",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "85g",
+            "addToCartDisabled": false,
+            "name": "Snabbnudlar Kyckling",
+            "code": "101252164_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "100794473_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z084",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 4.9,
+                        "priceType": "BUY",
+                        "formattedValue": "4,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 8,00 kr/st",
+                    "rewardLabel": "4,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "4,90 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "100794473_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500273982"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 12.9,
+            "price": "12,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07311042001546_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.8054847477,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "12,90 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 1kg",
+            "pickupProductLine2": "GARANT, 1kg",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "12,90",
+            "savingsAmount": 8.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "swedish_flag",
+                "from_sweden",
+                "keyhole"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07311042001546_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "1kg",
+            "addToCartDisabled": false,
+            "name": "Morötter Klass 1",
+            "code": "100794473_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101237094_ST",
+                        "101309111_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "Klubbpris",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 17.5,
+                        "priceType": "BUY",
+                        "formattedValue": "17,50 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Välj & blanda! 2 för",
+                    "rewardLabel": "35,00",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 2,
+                    "comparePrice": "87,50 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": true,
+                    "mainProductCode": "101237094_ST",
+                    "conditionLabelFormatted": "2 för",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500261695"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 22.9,
+            "price": "22,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083444388_C1N1_s03",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.79546606994,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "114,50 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 200g",
+            "pickupProductLine2": "GARANT, 200g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "22,90",
+            "savingsAmount": 10.8,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083444388_C1N1_s03",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "200g",
+            "addToCartDisabled": false,
+            "name": "Hamburgerbröd Brioche 4-pack",
+            "code": "101237094_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101531959_ST",
+                        "101531951_ST",
+                        "101531507_ST",
+                        "101531968_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z062",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 17.0,
+                        "priceType": "BUY",
+                        "formattedValue": "17,00 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Välj & blanda! 2 för",
+                    "rewardLabel": "34,00",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 2,
+                    "comparePrice": "34,00 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": true,
+                    "mainProductCode": "101531959_ST",
+                    "conditionLabelFormatted": "2 för",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500260574"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 21.9,
+            "price": "21,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/08004690053225_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.79405906322,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "43,80 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "LA MOLISANA, 500g",
+            "pickupProductLine2": "LA MOLISANA, 500g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "21,90",
+            "savingsAmount": 9.8,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "La Molisana",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/08004690053225_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "500g",
+            "addToCartDisabled": false,
+            "name": "Mezzi Rigatoni Pasta",
+            "code": "101531959_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101244011_ST",
+                        "101277666_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 24.9,
+                        "priceType": "BUY",
+                        "formattedValue": "24,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 17.9,
+                        "priceType": "BUY",
+                        "formattedValue": "17,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 7,00 kr/st",
+                    "rewardLabel": "17,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "89,50 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101244011_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500261693"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 24.9,
+            "price": "24,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083447532_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.7854667253,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "124,50 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ELDORADO, 200g",
+            "pickupProductLine2": "ELDORADO, 200g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "24,90",
+            "savingsAmount": 7.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Eldorado",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083447532_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "200g",
+            "addToCartDisabled": false,
+            "name": "Burgers Slices Cheddar",
+            "code": "101244011_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101329872_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 79.9,
+                        "priceType": "BUY",
+                        "formattedValue": "79,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 69.9,
+                        "priceType": "BUY",
+                        "formattedValue": "69,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 10,00 kr/st",
+                    "rewardLabel": "69,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "153,96 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101329872_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500263477"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 79.9,
+            "price": "79,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083485190_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.7754683637,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "175,99 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "PRIME PATROL, 454g",
+            "pickupProductLine2": "PRIME PATROL, 454g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "79,90",
+            "savingsAmount": 10.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "frozen"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Prime Patrol",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083485190_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "454g",
+            "addToCartDisabled": false,
+            "name": "Angusburgare Frysta/ 4x113,5g",
+            "code": "101329872_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101345187_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 29.8,
+                        "priceType": "BUY",
+                        "formattedValue": "29,80 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 6,10 kr/st",
+                    "rewardLabel": "29,80/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "135,46 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101345187_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500269910"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 35.9,
+            "price": "35,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083490873_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.76546967442,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "163,18 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "FALKENBERG, 220g",
+            "pickupProductLine2": "FALKENBERG, 220g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "35,90",
+            "savingsAmount": 6.1,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": true,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "asc_fish",
+                "keyhole",
+                "environmental_facet"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Falkenberg",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083490873_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "220g",
+            "addToCartDisabled": false,
+            "name": "Laxburgare 2-pack",
+            "code": "101345187_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101441826_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 17.9,
+                        "priceType": "BUY",
+                        "formattedValue": "17,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 17.8,
+                        "priceType": "BUY",
+                        "formattedValue": "17,80 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 6,10 kr/st",
+                    "rewardLabel": "17,80/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "71,20 kr",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101441826_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 608,
+                    "code": "2500261245"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 23.9,
+            "price": "23,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07311043000937_C1N1_s03",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.75546705298,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "95,60 kr",
+            "comparePriceUnit": "l",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 250ml",
+            "pickupProductLine2": "GARANT, 250ml",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "23,90",
+            "savingsAmount": 6.1,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07311043000937_C1N1_s03",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "250ml",
+            "addToCartDisabled": false,
+            "name": "Hamburger Dressing",
+            "code": "101441826_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101215560_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z001",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 12.9,
+                        "priceType": "BUY",
+                        "formattedValue": "12,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 12.8,
+                        "priceType": "BUY",
+                        "formattedValue": "12,80 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 2,10 kr/st",
+                    "rewardLabel": "12,80/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "25,60 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101215560_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500261213"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 14.9,
+            "price": "14,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083432057_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.74545099666,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "29,80 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 500g",
+            "pickupProductLine2": "GARANT, 500g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "14,90",
+            "savingsAmount": 2.1,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083432057_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "500g",
+            "addToCartDisabled": false,
+            "name": "Senap Original Finmalen",
+            "code": "101215560_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101330066_ST",
+                        "101330283_ST",
+                        "101280402_ST",
+                        "101280391_ST",
+                        "101550537_ST",
+                        "101542528_ST",
+                        "101355551_ST",
+                        "101303573_ST",
+                        "101287773_ST",
+                        "101438628_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z001",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 22.0,
+                        "priceType": "BUY",
+                        "formattedValue": "22,00 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Välj & blanda! 2 för",
+                    "rewardLabel": "44,00 +pant",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 2,
+                    "comparePrice": "2,75 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": true,
+                    "mainProductCode": "101330066_ST",
+                    "conditionLabelFormatted": "2 för",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500261211"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 25.9,
+            "price": "25,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07070841004584_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.73545230738,
+            "depositPrice": "1,00 kr",
+            "averageWeight": null,
+            "comparePrice": "3,24 kr",
+            "comparePriceUnit": "l",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ZEROH, 80cl/8l",
+            "pickupProductLine2": "ZEROH, 80cl/8l",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "25,90",
+            "savingsAmount": 7.8,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Zeroh",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07070841004584_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "80cl/8l",
+            "addToCartDisabled": false,
+            "name": "Strawberry Rhubarb No Sugar Blanddryck Pet",
+            "code": "101330066_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101310324_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z001",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 25.9,
+                        "priceType": "BUY",
+                        "formattedValue": "25,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 25.8,
+                        "priceType": "BUY",
+                        "formattedValue": "25,80 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 4,10 kr/st",
+                    "rewardLabel": "25,80/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "86,00 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101310324_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500261195"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 29.9,
+            "price": "29,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07340083479878_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.7254601717,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "99,67 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 540/300g",
+            "pickupProductLine2": "GARANT, 540/300g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "29,90",
+            "savingsAmount": 4.1,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07340083479878_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "540/300g",
+            "addToCartDisabled": false,
+            "name": "Hamburgergurka Långskivade",
+            "code": "101310324_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101551759_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z001",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 24.9,
+                        "priceType": "BUY",
+                        "formattedValue": "24,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 19.9,
+                        "priceType": "BUY",
+                        "formattedValue": "19,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 5,00 kr/st",
+                    "rewardLabel": "19,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "26,53 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101551759_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500263527"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 24.9,
+            "price": "24,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07311043009091_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.71546148242,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "33,20 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "GARANT, 750g",
+            "pickupProductLine2": "GARANT, 750g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "24,90",
+            "savingsAmount": 5.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "frozen"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Garant",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07311043009091_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "750g",
+            "addToCartDisabled": false,
+            "name": "Crunchy Fries",
+            "code": "101551759_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "GENERAL",
+                    "offerStatus": null,
+                    "productCodes": [
+                        "101662413_ST"
+                    ],
+                    "promotionTheme": {
+                        "code": "Z001",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 14.9,
+                        "priceType": "BUY",
+                        "formattedValue": "14,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 13.9,
+                        "priceType": "BUY",
+                        "formattedValue": "13,90 kr",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "MixMatchPricePromotion",
+                    "conditionLabel": "Spara 3,00 kr/st",
+                    "rewardLabel": "13,90/st",
+                    "textLabel": "",
+                    "redeemLimitLabel": "",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": 1,
+                    "comparePrice": "92,67 kr",
+                    "splashTitleText": "Kampanj",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101662413_ST",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": null,
+                    "priority": 408,
+                    "code": "2500261212"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 16.9,
+            "price": "16,90 kr",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/07311043014842_C1C1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.70545132434,
+            "depositPrice": "",
+            "averageWeight": null,
+            "comparePrice": "112,67 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 0.6222435832023621,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "ELDORADO, 150g",
+            "pickupProductLine2": "ELDORADO, 150g",
+            "priceUnit": "kr/st",
+            "priceNoUnit": "16,90",
+            "savingsAmount": 3.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Eldorado",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/07311043014842_C1C1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "150g",
+            "addToCartDisabled": false,
+            "name": "Rostad Lök",
+            "code": "101662413_ST"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": null,
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 59.9,
+                        "priceType": "BUY",
+                        "formattedValue": "59,90 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 54.9,
+                        "priceType": "BUY",
+                        "formattedValue": "54,90 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "SubtotalOrderPromotion",
+                    "conditionLabel": "Spara 10,00 kr/kg",
+                    "rewardLabel": "54,90/kg",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": null,
+                    "comparePrice": "54,90 kr/kg",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "100496358_KG",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": 0.0,
+                    "priority": 609,
+                    "code": "2500269651"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 64.9,
+            "price": "64,90 kr/kg",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/02371545100004_C1N1_s08",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.69546410386,
+            "depositPrice": "",
+            "averageWeight": 2.0,
+            "comparePrice": "64,90 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "NYBERGS DELI, ca: 2kg",
+            "pickupProductLine2": "NYBERGS DELI, ca: 2kg",
+            "priceUnit": "kr/kg",
+            "priceNoUnit": "64,90",
+            "savingsAmount": 10.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [
+                "swedish_flag",
+                "meat_from_sweden"
+            ],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Nybergs Deli",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/02371545100004_C1N1_s08",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "ca: 2kg",
+            "addToCartDisabled": false,
+            "name": "Helgskinka Kokt Sverige",
+            "code": "100496358_KG"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": null,
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 179.9,
+                        "priceType": "BUY",
+                        "formattedValue": "179,90 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 179.0,
+                        "priceType": "BUY",
+                        "formattedValue": "179,00 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "SubtotalOrderPromotion",
+                    "conditionLabel": "Spara 70,00 kr/kg",
+                    "rewardLabel": "179/kg",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": null,
+                    "comparePrice": "179,00 kr/kg",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101070886_KG",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": 0.0,
+                    "priority": 609,
+                    "code": "2500269657"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 249.0,
+            "price": "249,00 kr/kg",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/02373719300005_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.68546869138,
+            "depositPrice": "",
+            "averageWeight": 1.0,
+            "comparePrice": "249,00 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "NATURKÖTT, ca: 1kg",
+            "pickupProductLine2": "NATURKÖTT, ca: 1kg",
+            "priceUnit": "kr/kg",
+            "priceNoUnit": "249,00",
+            "savingsAmount": 70.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Naturkött",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/02373719300005_C1N1_s02",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "ca: 1kg",
+            "addToCartDisabled": false,
+            "name": "Entrecôte Bit Brasilien",
+            "code": "101070886_KG"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": null,
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": {
+                        "currencyIso": "SEK",
+                        "value": 429.0,
+                        "priceType": "BUY",
+                        "formattedValue": "429,00 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 349.0,
+                        "priceType": "BUY",
+                        "formattedValue": "349,00 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "SubtotalOrderPromotion",
+                    "conditionLabel": "Spara 80,00 kr/kg",
+                    "rewardLabel": "349/kg",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": null,
+                    "comparePrice": "349,00 kr/kg",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101232426_KG",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": 0.0,
+                    "priority": 609,
+                    "code": "2500269656"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 429.0,
+            "price": "429,00 kr/kg",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/02359743200009_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.6754650869,
+            "depositPrice": "",
+            "averageWeight": 0.45,
+            "comparePrice": "429,00 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "FARMERS, ca: 450g",
+            "pickupProductLine2": "FARMERS, ca: 450g",
+            "priceUnit": "kr/kg",
+            "priceNoUnit": "429,00",
+            "savingsAmount": 80.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Farmers",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/02359743200009_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "ca: 450g",
+            "addToCartDisabled": false,
+            "name": "Lammracks Singel Färsk Nya Zeeland",
+            "code": "101232426_KG"
+        },
+        {
+            "potentialPromotions": [
+                {
+                    "applied": false,
+                    "campaignType": "LOYALTY",
+                    "offerStatus": null,
+                    "productCodes": null,
+                    "promotionTheme": {
+                        "code": "Z020",
+                        "visible": null
+                    },
+                    "textLabelGenerated": "",
+                    "textLabelManual": null,
+                    "lowestHistoricalPrice": null,
+                    "price": {
+                        "currencyIso": "SEK",
+                        "value": 169.0,
+                        "priceType": "BUY",
+                        "formattedValue": "169,00 kr/kg",
+                        "minQuantity": null,
+                        "maxQuantity": null
+                    },
+                    "promotionType": "SubtotalOrderPromotion",
+                    "conditionLabel": "Spara 30,00 kr/kg",
+                    "rewardLabel": "169/kg",
+                    "textLabel": "",
+                    "redeemLimitLabel": "Max 3 köp",
+                    "cartLabel": null,
+                    "validUntil": null,
+                    "timesUsed": null,
+                    "qualifyingCount": null,
+                    "comparePrice": "169,00 kr/kg",
+                    "splashTitleText": "",
+                    "realMixAndMatch": false,
+                    "mainProductCode": "101543666_KG",
+                    "conditionLabelFormatted": "",
+                    "promotionRedeemLimit": null,
+                    "promotionPercentage": null,
+                    "cartLabelFormatted": "",
+                    "threshold": 0.0,
+                    "priority": 609,
+                    "code": "2500269654"
+                }
+            ],
+            "inactivePotentialPromotions": [],
+            "priceValue": 199.0,
+            "price": "199,00 kr/kg",
+            "image": {
+                "imageType": "PRIMARY",
+                "format": "product",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_200/02381228300003_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "ranking": 320.6654634485,
+            "depositPrice": "",
+            "averageWeight": 1.5,
+            "comparePrice": "199,00 kr",
+            "comparePriceUnit": "kg",
+            "isDrugProduct": false,
+            "solrSearchScore": 1.8387374877929688,
+            "energyDeclaration": null,
+            "newsSplashProduct": false,
+            "notAllowedB2b": false,
+            "notAllowedAnonymous": false,
+            "productLine2": "FÅDDMAN, ca: 1.5kg",
+            "pickupProductLine2": "FÅDDMAN, ca: 1.5kg",
+            "priceUnit": "kr/kg",
+            "priceNoUnit": "199,00",
+            "savingsAmount": 30.0,
+            "googleAnalyticsCategory": "",
+            "gdprTrackingIncompliant": false,
+            "nicotineMedicalProduct": false,
+            "tobaccoFreeNicotineProduct": false,
+            "nonEkoProduct": false,
+            "precautionaryStatements": [],
+            "hazards": [],
+            "tobaccoProduct": false,
+            "showGoodPriceIcon": false,
+            "labels": [],
+            "seoDescription": "",
+            "seoTitle": "",
+            "manufacturer": "Fåddman",
+            "incrementValue": 1.0,
+            "productBasketType": {
+                "code": "ST",
+                "type": "ProductBasketTypeEnum"
+            },
+            "bargainProduct": false,
+            "addToCartMessage": "",
+            "thumbnail": {
+                "imageType": "PRIMARY",
+                "format": "thumbnail",
+                "url": "https://assets.axfood.se/image/upload/f_auto,t_100/02381228300003_C1N1_s01",
+                "altText": null,
+                "galleryIndex": null,
+                "width": null
+            },
+            "outOfStock": false,
+            "online": true,
+            "displayVolume": "ca: 1.5kg",
+            "addToCartDisabled": false,
+            "name": "Lammstek Provencal Nya Zeeland",
+            "code": "101543666_KG"
+        }
+    ],
+    "sorts": null,
+    "pagination": {
+        "pageSize": 20,
+        "currentPage": 0,
+        "sort": null,
+        "numberOfPages": 12,
+        "totalNumberOfResults": 233,
+        "allProductsInCategoriesCount": 0,
+        "allProductsInSearchCount": 0
+    },
+    "relatedResults": null,
+    "relatedResultsPagination": null,
+    "currentQuery": null,
+    "breadcrumbs": [],
+    "facets": [
+        {
+            "code": "categoryLevel1",
+            "name": "categoryLevel1",
+            "priority": 150,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": [
+                {
+                    "code": "N12",
+                    "name": "Barn",
+                    "count": 10,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN12",
+                        "query": {
+                            "value": ":categoryLevel1:N12",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N06",
+                    "name": "Bröd & Kakor",
+                    "count": 15,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN06",
+                        "query": {
+                            "value": ":categoryLevel1:N06",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N13",
+                    "name": "Djur",
+                    "count": 11,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN13",
+                        "query": {
+                            "value": ":categoryLevel1:N13",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N10",
+                    "name": "Dryck",
+                    "count": 19,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN10",
+                        "query": {
+                            "value": ":categoryLevel1:N10",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N02",
+                    "name": "Fisk & Skaldjur",
+                    "count": 4,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN02",
+                        "query": {
+                            "value": ":categoryLevel1:N02",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                }
+            ],
+            "values": [
+                {
+                    "code": "N12",
+                    "name": "Barn",
+                    "count": 10,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN12",
+                        "query": {
+                            "value": ":categoryLevel1:N12",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N06",
+                    "name": "Bröd & Kakor",
+                    "count": 15,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN06",
+                        "query": {
+                            "value": ":categoryLevel1:N06",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N13",
+                    "name": "Djur",
+                    "count": 11,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN13",
+                        "query": {
+                            "value": ":categoryLevel1:N13",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N10",
+                    "name": "Dryck",
+                    "count": 19,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN10",
+                        "query": {
+                            "value": ":categoryLevel1:N10",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N02",
+                    "name": "Fisk & Skaldjur",
+                    "count": 4,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN02",
+                        "query": {
+                            "value": ":categoryLevel1:N02",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N05",
+                    "name": "Frukt & Grönt",
+                    "count": 15,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN05",
+                        "query": {
+                            "value": ":categoryLevel1:N05",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N08",
+                    "name": "Fryst",
+                    "count": 5,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN08",
+                        "query": {
+                            "value": ":categoryLevel1:N08",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N09",
+                    "name": "Färdigmat",
+                    "count": 6,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN09",
+                        "query": {
+                            "value": ":categoryLevel1:N09",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N11",
+                    "name": "Glass, godis & snacks",
+                    "count": 18,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN11",
+                        "query": {
+                            "value": ":categoryLevel1:N11",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N14",
+                    "name": "Hem & Städ",
+                    "count": 12,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN14",
+                        "query": {
+                            "value": ":categoryLevel1:N14",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N15",
+                    "name": "Hälsa & Skönhet",
+                    "count": 18,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN15",
+                        "query": {
+                            "value": ":categoryLevel1:N15",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N01",
+                    "name": "Kött, chark & fågel",
+                    "count": 23,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN01",
+                        "query": {
+                            "value": ":categoryLevel1:N01",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N04",
+                    "name": "Mejeri, ost & ägg",
+                    "count": 32,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN04",
+                        "query": {
+                            "value": ":categoryLevel1:N04",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N07",
+                    "name": "Skafferi",
+                    "count": 44,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN07",
+                        "query": {
+                            "value": ":categoryLevel1:N07",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "N03",
+                    "name": "Vegetariskt",
+                    "count": 1,
+                    "query": {
+                        "url": "%3AcategoryLevel1%3AN03",
+                        "query": {
+                            "value": ":categoryLevel1:N03",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "campaignType",
+            "name": "campaignType",
+            "priority": 100,
+            "category": false,
+            "multiSelect": true,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "GENERAL",
+                    "name": "Generella",
+                    "count": 207,
+                    "query": {
+                        "url": "%3AcampaignType%3AGENERAL",
+                        "query": {
+                            "value": ":campaignType:GENERAL",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "LOYALTY",
+                    "name": "Willys Plus",
+                    "count": 26,
+                    "query": {
+                        "url": "%3AcampaignType%3ALOYALTY",
+                        "query": {
+                            "value": ":campaignType:LOYALTY",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                }
+            ]
+        },
+        {
+            "code": "productLabelTypes",
+            "name": "productLabelTypes",
+            "priority": -1000,
+            "category": false,
+            "multiSelect": false,
+            "visible": true,
+            "topValues": null,
+            "values": [
+                {
+                    "code": "ASC_FISH",
+                    "name": "ASC-märkt fisk",
+                    "count": 2,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AASC_FISH",
+                        "query": {
+                            "value": ":productLabelTypes:ASC_FISH",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "ECOLOGICAL",
+                    "name": "Ekologisk",
+                    "count": 6,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AECOLOGICAL",
+                        "query": {
+                            "value": ":productLabelTypes:ECOLOGICAL",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "FAIRTRADE_FACET",
+                    "name": "Fairtrade",
+                    "count": 3,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AFAIRTRADE_FACET",
+                        "query": {
+                            "value": ":productLabelTypes:FAIRTRADE_FACET",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "GLUTENFREE",
+                    "name": "Glutenfri",
+                    "count": 5,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AGLUTENFREE",
+                        "query": {
+                            "value": ":productLabelTypes:GLUTENFREE",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "LAKTOSFREE",
+                    "name": "Laktosfri",
+                    "count": 12,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3ALAKTOSFREE",
+                        "query": {
+                            "value": ":productLabelTypes:LAKTOSFREE",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "ENVIRONMENTAL_FACET",
+                    "name": "Miljömärkt",
+                    "count": 22,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AENVIRONMENTAL_FACET",
+                        "query": {
+                            "value": ":productLabelTypes:ENVIRONMENTAL_FACET",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "MSC_FISH",
+                    "name": "MSC-märkt fisk",
+                    "count": 3,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AMSC_FISH",
+                        "query": {
+                            "value": ":productLabelTypes:MSC_FISH",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "KEYHOLE",
+                    "name": "Nyckelhålet",
+                    "count": 28,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3AKEYHOLE",
+                        "query": {
+                            "value": ":productLabelTypes:KEYHOLE",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                },
+                {
+                    "code": "SWEDISH_FLAG",
+                    "name": "Svenskt",
+                    "count": 21,
+                    "query": {
+                        "url": "%3AproductLabelTypes%3ASWEDISH_FLAG",
+                        "query": {
+                            "value": ":productLabelTypes:SWEDISH_FLAG",
+                            "filterQueries": [],
+                            "searchQueryContext": null,
+                            "searchType": null
+                        }
+                    },
+                    "selected": false
+                }
+            ]
+        }
+    ],
+    "freeTextSearch": null,
+    "categoryCode": null,
+    "keywordRedirectUrl": null,
+    "spellingSuggestion": null,
+    "categoryName": null,
+    "customSuggestion": null,
+    "categoryBreadcrumbs": null,
+    "navigationCategories": null,
+    "usedQuery": null
+}
