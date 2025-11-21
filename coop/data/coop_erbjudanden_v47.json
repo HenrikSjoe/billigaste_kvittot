@@ -18570,6 +18570,170 @@
         "isPil": true
     },
     {
+        "id": "252700-2511044349384",
+        "weekNumber": 47,
+        "campaignStartDate": "2025-11-20T00:00:00",
+        "campaignEndDate": "2025-11-23T23:59:59",
+        "simplifiedAgeRestriction": "",
+        "externalId": "7340007926860",
+        "storeLedgerAccountNumber": "252700",
+        "channelCodes": [
+            "BA",
+            "DR"
+        ],
+        "roleDescriptions": [
+            "EH",
+            "MF"
+        ],
+        "hasPicture": true,
+        "categoryTeam": {
+            "name": "Frukt/Grönt/Blommor"
+        },
+        "categoryGroup": "Färsk",
+        "eagId": 33862,
+        "salesHead": 593680,
+        "priceInformation": {
+            "discountValue": 10,
+            "isMemberPrice": true,
+            "unit": "st",
+            "dealType": "pris",
+            "ordinaryPrice": 14.95
+        },
+        "content": {
+            "title": "Potatis i påse",
+            "brand": "Sverige/Coop",
+            "description": "Klass 1. Välj mellan fast och mjölig.",
+            "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1738326062/cloud/430362.png",
+            "amountInformation": "900 g.",
+            "comparativePriceText": "11,11/kg.",
+            "formattedComparativePriceText": "11,11/kg.",
+            "limitations": [
+                "2"
+            ],
+            "enrichedComparisonPrice": "11,11/kg.",
+            "onlineProductName": "Potatis Fast",
+            "parentTitle": "Potatis i påse",
+            "parentAmountInformation": "900 g.",
+            "parentFormattedComparativePriceText": "11,11/kg",
+            "parentComparativePriceText": "11,1111111111 kr/kg"
+        },
+        "clusterInteriorOffers": [
+            {
+                "id": "252700-2511044349365",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7340007926877",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 33862,
+                "salesHead": 593680,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 14.95
+                },
+                "content": {
+                    "title": "Potatis Mjölig",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1. Välj mellan fast och mjölig.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1738326046/cloud/430359.png",
+                    "amountInformation": "900 g.",
+                    "comparativePriceText": "11,1111111111 kr/kg",
+                    "formattedComparativePriceText": "11,11/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "11,11/kg.",
+                    "onlineProductName": "Potatis Mjölig",
+                    "parentTitle": "Potatis i påse",
+                    "parentAmountInformation": "900 g.",
+                    "parentFormattedComparativePriceText": "11,11/kg",
+                    "parentComparativePriceText": "11,1111111111 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349384",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7340007926860",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 33862,
+                "salesHead": 593680,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 14.95
+                },
+                "content": {
+                    "title": "Potatis Fast",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1. Välj mellan fast och mjölig.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1738326062/cloud/430362.png",
+                    "amountInformation": "900 g.",
+                    "comparativePriceText": "11,1111111111 kr/kg",
+                    "formattedComparativePriceText": "11,11/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "11,11/kg.",
+                    "onlineProductName": "Potatis Fast",
+                    "parentTitle": "Potatis i påse",
+                    "parentAmountInformation": "900 g.",
+                    "parentFormattedComparativePriceText": "11,11/kg",
+                    "parentComparativePriceText": "11,1111111111 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10:-",
+                    "tag": "Medlemspris"
+                }
+            }
+        ],
+        "otherLogos": [],
+        "unifiedSplash": {
+            "value": "10:-",
+            "tag": "Medlemspris"
+        }
+    },
+    {
         "id": "252700-2511044348993",
         "weekNumber": 47,
         "campaignStartDate": "2025-11-17T00:00:00",
@@ -20448,6 +20612,181 @@
         "unifiedSplash": {
             "prefix": "2 för",
             "value": "30:-"
+        }
+    },
+    {
+        "id": "252700-2511044349416",
+        "weekNumber": 47,
+        "campaignStartDate": "2025-11-20T00:00:00",
+        "campaignEndDate": "2025-11-23T23:59:59",
+        "simplifiedAgeRestriction": "",
+        "externalId": "7300156596734",
+        "storeLedgerAccountNumber": "252700",
+        "channelCodes": [
+            "BA",
+            "DR"
+        ],
+        "roleDescriptions": [
+            "EH",
+            "MF"
+        ],
+        "hasPicture": true,
+        "categoryTeam": {
+            "name": "Frukt/Grönt/Blommor"
+        },
+        "categoryGroup": "Färsk",
+        "eagId": 39538,
+        "salesHead": 593686,
+        "priceInformation": {
+            "discountValue": 10,
+            "isMemberPrice": true,
+            "unit": "nät",
+            "dealType": "pris",
+            "ordinaryPrice": 12.95
+        },
+        "content": {
+            "title": "Gul lök",
+            "brand": "Sverige/Coop",
+            "description": "Klass 1.",
+            "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1699258907/cloud/297908.png",
+            "amountInformation": "1 kg.",
+            "comparativePriceText": "10 kr/kg.",
+            "formattedComparativePriceText": "10 kr/kg.",
+            "limitations": [
+                "2"
+            ],
+            "enrichedComparisonPrice": "10 kr/kg.",
+            "weightVolume": "1000",
+            "netContentUnit": "Gram",
+            "onlineProductName": "Lök Gul",
+            "parentTitle": "Gul lök",
+            "parentAmountInformation": "1 kg.",
+            "parentFormattedComparativePriceText": "10 kr/kg",
+            "parentComparativePriceText": "10 kr/kg"
+        },
+        "clusterInteriorOffers": [
+            {
+                "id": "252700-2511044349406",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7350039891203",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 39538,
+                "salesHead": 593686,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "nät",
+                    "dealType": "pris",
+                    "ordinaryPrice": 12.95
+                },
+                "content": {
+                    "title": "Gul lök",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1673945698/cloud/271468.png",
+                    "amountInformation": "1 Kilogram",
+                    "comparativePriceText": "10 kr/kg",
+                    "formattedComparativePriceText": "10 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "10 kr/kg.",
+                    "weightVolume": "1",
+                    "netContentUnit": "Kilogram",
+                    "onlineProductName": "Gul lök",
+                    "parentTitle": "Gul lök",
+                    "parentAmountInformation": "1 kg.",
+                    "parentFormattedComparativePriceText": "10 kr/kg",
+                    "parentComparativePriceText": "10 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10",
+                    "decimal": "00",
+                    "unit": "nät",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349416",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156596734",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 39538,
+                "salesHead": 593686,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "nät",
+                    "dealType": "pris",
+                    "ordinaryPrice": 12.95
+                },
+                "content": {
+                    "title": "Lök Gul",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1699258907/cloud/297908.png",
+                    "amountInformation": "1000 Gram",
+                    "comparativePriceText": "10 kr/kg",
+                    "formattedComparativePriceText": "10 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "10 kr/kg.",
+                    "weightVolume": "1000",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Lök Gul",
+                    "parentTitle": "Gul lök",
+                    "parentAmountInformation": "1 kg.",
+                    "parentFormattedComparativePriceText": "10 kr/kg",
+                    "parentComparativePriceText": "10 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10",
+                    "decimal": "00",
+                    "unit": "nät",
+                    "tag": "Medlemspris"
+                }
+            }
+        ],
+        "otherLogos": [],
+        "unifiedSplash": {
+            "value": "10",
+            "decimal": "00",
+            "unit": "nät",
+            "tag": "Medlemspris"
         }
     },
     {
@@ -26020,6 +26359,288 @@
         }
     },
     {
+        "id": "252700-2511044349307",
+        "weekNumber": 47,
+        "campaignStartDate": "2025-11-20T00:00:00",
+        "campaignEndDate": "2025-11-23T23:59:59",
+        "simplifiedAgeRestriction": "",
+        "externalId": "7300150031514",
+        "storeLedgerAccountNumber": "252700",
+        "channelCodes": [
+            "BA",
+            "DR"
+        ],
+        "roleDescriptions": [
+            "EH",
+            "MF"
+        ],
+        "hasPicture": true,
+        "categoryTeam": {
+            "name": "Frukt/Grönt/Blommor"
+        },
+        "categoryGroup": "Färsk",
+        "eagId": 27731,
+        "salesHead": 593691,
+        "priceInformation": {
+            "discountValue": 15,
+            "isMemberPrice": true,
+            "unit": "st",
+            "dealType": "pris",
+            "ordinaryPrice": 23.95
+        },
+        "content": {
+            "title": "Sallad i påse",
+            "brand": "Land: se förp./Coop",
+            "description": "Klass 1. Välj mellan olika sorter.",
+            "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1733404188/cloud/414130.png",
+            "amountInformation": "125-200 g.",
+            "comparativePriceText": "75-120 kr/kg, 120 kr/st.",
+            "formattedComparativePriceText": "75-120 kr/kg, 120 kr/st.",
+            "limitations": [
+                "2"
+            ],
+            "enrichedComparisonPrice": "75-120 kr/kg, 120 kr/st.",
+            "weightVolume": "0",
+            "netContentUnit": "Gram",
+            "onlineProductName": "Vardagsmix",
+            "parentTitle": "Sallad i påse",
+            "parentAmountInformation": "125-200 g.",
+            "parentFormattedComparativePriceText": "120 kr/kg",
+            "parentComparativePriceText": "120 kr/kg"
+        },
+        "clusterInteriorOffers": [
+            {
+                "id": "252700-2511044349306",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156583802",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 27731,
+                "salesHead": 593691,
+                "priceInformation": {
+                    "discountValue": 15,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 25.95
+                },
+                "content": {
+                    "title": "Sallad Underbar Mix",
+                    "brand": "Land: se förp./Coop",
+                    "description": "Klass 1. Välj mellan olika sorter.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1730104775/cloud/397270.png",
+                    "amountInformation": "125 Gram",
+                    "comparativePriceText": "120 kr/styck",
+                    "formattedComparativePriceText": "120 kr/st",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "75-120 kr/kg, 120 kr/st.",
+                    "weightVolume": "125",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Sallad Underbar Mix",
+                    "parentTitle": "Sallad i påse",
+                    "parentAmountInformation": "125-200 g.",
+                    "parentFormattedComparativePriceText": "120 kr/st",
+                    "parentComparativePriceText": "120 kr/styck"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "15:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349000",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156579577",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 27731,
+                "salesHead": 593691,
+                "priceInformation": {
+                    "discountValue": 15,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 19.95
+                },
+                "content": {
+                    "title": "Isbergssallat",
+                    "brand": "Land: se förp./Coop",
+                    "description": "Klass 1. Välj mellan olika sorter.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1731593826/cloud/403772.png",
+                    "amountInformation": "200 Gram",
+                    "comparativePriceText": "75 kr/kg",
+                    "formattedComparativePriceText": "75 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "75-120 kr/kg, 120 kr/st.",
+                    "weightVolume": "200",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Isbergssallat",
+                    "parentTitle": "Sallad i påse",
+                    "parentAmountInformation": "125-200 g.",
+                    "parentFormattedComparativePriceText": "75 kr/kg",
+                    "parentComparativePriceText": "75 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "15:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349308",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156583819",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 27731,
+                "salesHead": 593691,
+                "priceInformation": {
+                    "discountValue": 15,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 26.95
+                },
+                "content": {
+                    "title": "Krispig Mix",
+                    "brand": "Land: se förp./Coop",
+                    "description": "Klass 1. Välj mellan olika sorter.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1730104814/cloud/397273.png",
+                    "amountInformation": "150 Gram",
+                    "comparativePriceText": "100 kr/kg",
+                    "formattedComparativePriceText": "100 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "75-120 kr/kg, 120 kr/st.",
+                    "weightVolume": "150",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Krispig Mix",
+                    "parentTitle": "Sallad i påse",
+                    "parentAmountInformation": "125-200 g.",
+                    "parentFormattedComparativePriceText": "100 kr/kg",
+                    "parentComparativePriceText": "100 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "15:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349307",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300150031514",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 27731,
+                "salesHead": 593691,
+                "priceInformation": {
+                    "discountValue": 15,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 23.95
+                },
+                "content": {
+                    "title": "Vardagsmix",
+                    "brand": "Land: se förp./Coop",
+                    "description": "Klass 1. Välj mellan olika sorter.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1733404188/cloud/414130.png",
+                    "amountInformation": "0 Gram",
+                    "comparativePriceText": "120 kr/kg",
+                    "formattedComparativePriceText": "120 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "75-120 kr/kg, 120 kr/st.",
+                    "weightVolume": "0",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Vardagsmix",
+                    "parentTitle": "Sallad i påse",
+                    "parentAmountInformation": "125-200 g.",
+                    "parentFormattedComparativePriceText": "120 kr/kg",
+                    "parentComparativePriceText": "120 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "15:-",
+                    "tag": "Medlemspris"
+                }
+            }
+        ],
+        "otherLogos": [],
+        "unifiedSplash": {
+            "value": "15:-",
+            "tag": "Medlemspris"
+        }
+    },
+    {
         "id": "252700-2511044349313",
         "weekNumber": 47,
         "campaignStartDate": "2025-11-17T00:00:00",
@@ -27039,6 +27660,344 @@
             "value": "129",
             "decimal": "00",
             "unit": "kg"
+        }
+    },
+    {
+        "id": "252700-2511044349096",
+        "weekNumber": 47,
+        "campaignStartDate": "2025-11-20T00:00:00",
+        "campaignEndDate": "2025-11-23T23:59:59",
+        "simplifiedAgeRestriction": "",
+        "externalId": "7300156476319",
+        "storeLedgerAccountNumber": "252700",
+        "channelCodes": [
+            "BA",
+            "DR"
+        ],
+        "roleDescriptions": [
+            "EH",
+            "MF"
+        ],
+        "hasPicture": true,
+        "categoryTeam": {
+            "name": "Frukt/Grönt/Blommor"
+        },
+        "categoryGroup": "Färsk",
+        "eagId": 26037,
+        "salesHead": 593681,
+        "priceInformation": {
+            "discountValue": 10,
+            "isMemberPrice": true,
+            "unit": "st",
+            "dealType": "pris",
+            "ordinaryPrice": 12.95
+        },
+        "content": {
+            "title": "Morötter i påse",
+            "brand": "Sverige/Coop",
+            "description": "Klass 1.",
+            "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1727183794/cloud/388677.png",
+            "amountInformation": "1 kg.",
+            "comparativePriceText": "¨",
+            "formattedComparativePriceText": "¨",
+            "limitations": [
+                "2"
+            ],
+            "enrichedComparisonPrice": "¨",
+            "weightVolume": "1000",
+            "netContentUnit": "Gram",
+            "onlineProductName": "Morötter",
+            "parentTitle": "Morötter i påse",
+            "parentAmountInformation": "1 kg.",
+            "parentFormattedComparativePriceText": "10 kr/kg",
+            "parentComparativePriceText": "10 kr/kg"
+        },
+        "nutritionCode": "1",
+        "clusterInteriorOffers": [
+            {
+                "id": "252700-2511044349189",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7393802000402",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 26037,
+                "salesHead": 593681,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 12.95
+                },
+                "content": {
+                    "title": "Morötter 1Kg",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1628674093/cloud/231896.png",
+                    "amountInformation": "1000 Gram",
+                    "comparativePriceText": "10 kr/kg",
+                    "formattedComparativePriceText": "10 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "¨",
+                    "weightVolume": "1000",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Morötter 1Kg",
+                    "parentTitle": "Morötter i påse",
+                    "parentAmountInformation": "1 kg.",
+                    "parentFormattedComparativePriceText": "10 kr/kg",
+                    "parentComparativePriceText": "10 kr/kg"
+                },
+                "nutritionCode": "1",
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349096",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156476319",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 26037,
+                "salesHead": 593681,
+                "priceInformation": {
+                    "discountValue": 10,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 12.95
+                },
+                "content": {
+                    "title": "Morötter",
+                    "brand": "Sverige/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1727183794/cloud/388677.png",
+                    "amountInformation": "1000 Gram",
+                    "comparativePriceText": "10 kr/kg",
+                    "formattedComparativePriceText": "10 kr/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "enrichedComparisonPrice": "¨",
+                    "weightVolume": "1000",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Morötter",
+                    "parentTitle": "Morötter i påse",
+                    "parentAmountInformation": "1 kg.",
+                    "parentFormattedComparativePriceText": "10 kr/kg",
+                    "parentComparativePriceText": "10 kr/kg"
+                },
+                "nutritionCode": "1",
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "10:-",
+                    "tag": "Medlemspris"
+                }
+            }
+        ],
+        "otherLogos": [],
+        "unifiedSplash": {
+            "value": "10:-",
+            "tag": "Medlemspris"
+        }
+    },
+    {
+        "id": "252700-2511044349188",
+        "weekNumber": 47,
+        "campaignStartDate": "2025-11-20T00:00:00",
+        "campaignEndDate": "2025-11-23T23:59:59",
+        "simplifiedAgeRestriction": "",
+        "externalId": "7300156598967",
+        "storeLedgerAccountNumber": "252700",
+        "channelCodes": [
+            "BA",
+            "DR"
+        ],
+        "roleDescriptions": [
+            "EH",
+            "MF"
+        ],
+        "hasPicture": true,
+        "categoryTeam": {
+            "name": "Frukt/Grönt/Blommor"
+        },
+        "categoryGroup": "Färsk",
+        "eagId": 39179,
+        "salesHead": 593689,
+        "priceInformation": {
+            "discountValue": 25,
+            "isMemberPrice": true,
+            "unit": "st",
+            "dealType": "pris",
+            "ordinaryPrice": 39.95
+        },
+        "content": {
+            "title": "Snacktomater",
+            "brand": "Spanien/Marocko/Coop",
+            "description": "Klass 1.",
+            "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1727181886/cloud/388638.png",
+            "amountInformation": "400 g.",
+            "comparativePriceText": "",
+            "formattedComparativePriceText": "",
+            "limitations": [
+                "2"
+            ],
+            "weightVolume": "400",
+            "netContentUnit": "Gram",
+            "onlineProductName": "Snacktomater",
+            "parentTitle": "Snacktomater",
+            "parentAmountInformation": "400 g.",
+            "parentFormattedComparativePriceText": "62,50/kg",
+            "parentComparativePriceText": "62,5 kr/kg"
+        },
+        "clusterInteriorOffers": [
+            {
+                "id": "252700-2511044349274",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "8718711021727",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 39179,
+                "salesHead": 593689,
+                "priceInformation": {
+                    "discountValue": 25,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 39.95
+                },
+                "content": {
+                    "title": "Snacktomater",
+                    "brand": "Spanien/Marocko/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1652182305/cloud/251863.png",
+                    "amountInformation": "400 Gram",
+                    "comparativePriceText": "62,5 kr/kg",
+                    "formattedComparativePriceText": "62,50/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "weightVolume": "400",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Snacktomater",
+                    "parentTitle": "Snacktomater",
+                    "parentAmountInformation": "400 g.",
+                    "parentFormattedComparativePriceText": "62,50/kg",
+                    "parentComparativePriceText": "62,5 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "25:-",
+                    "tag": "Medlemspris"
+                }
+            },
+            {
+                "id": "252700-2511044349188",
+                "weekNumber": 47,
+                "campaignStartDate": "2025-11-20T00:00:00",
+                "campaignEndDate": "2025-11-23T23:59:59",
+                "simplifiedAgeRestriction": "",
+                "externalId": "7300156598967",
+                "storeLedgerAccountNumber": "252700",
+                "channelCodes": [
+                    "BA",
+                    "DR"
+                ],
+                "roleDescriptions": [
+                    "EH",
+                    "MF"
+                ],
+                "hasPicture": true,
+                "categoryTeam": {
+                    "name": "Frukt/Grönt/Blommor"
+                },
+                "categoryGroup": "Färsk",
+                "eagId": 39179,
+                "salesHead": 593689,
+                "priceInformation": {
+                    "discountValue": 25,
+                    "isMemberPrice": true,
+                    "unit": "st",
+                    "dealType": "pris",
+                    "ordinaryPrice": 39.95
+                },
+                "content": {
+                    "title": "Snacktomater",
+                    "brand": "Spanien/Marocko/Coop",
+                    "description": "Klass 1.",
+                    "imageUrl": "//res.cloudinary.com/coopsverige/image/upload/v1727181886/cloud/388638.png",
+                    "amountInformation": "400 Gram",
+                    "comparativePriceText": "62,5 kr/kg",
+                    "formattedComparativePriceText": "62,50/kg",
+                    "limitations": [
+                        "2"
+                    ],
+                    "weightVolume": "400",
+                    "netContentUnit": "Gram",
+                    "onlineProductName": "Snacktomater",
+                    "parentTitle": "Snacktomater",
+                    "parentAmountInformation": "400 g.",
+                    "parentFormattedComparativePriceText": "62,50/kg",
+                    "parentComparativePriceText": "62,5 kr/kg"
+                },
+                "otherLogos": [],
+                "unifiedSplash": {
+                    "value": "25:-",
+                    "tag": "Medlemspris"
+                }
+            }
+        ],
+        "otherLogos": [],
+        "unifiedSplash": {
+            "value": "25:-",
+            "tag": "Medlemspris"
         }
     },
     {
