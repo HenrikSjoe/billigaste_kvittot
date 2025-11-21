@@ -1,11 +1,14 @@
 import requests
 import json
 import datetime
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
+api_key = os.getenv("COOP_API_KEY")
 vecka = datetime.date.today().isocalendar()[1]
 
 url = "https://external.api.coop.se/dke/offers/252700?api-version=v1&clustered=true"
-api_key = "3804fe145c4e4629ab9b6c755d2e3cfb"
 
 headers = {
     "ocp-apim-subscription-key": api_key
