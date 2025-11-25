@@ -1,22 +1,22 @@
 import dlt
 from dlt.sources.filesystem import filesystem
-import json
-import os 
 from pathlib import Path
-from flatten_json import flatten
+import datetime
+import requests
 
+vecka = datetime.date.today().isocalendar()[1]
+url = "https://www.citygross.se/api/v1/Loop54/category/2930/products?breadcrumb=Matvaror%20%3E%20Veckans%20erbjudanden&categoryName=Veckans%20erbjudanden&currentWeekDiscountOnly=true&skip=0&take=500"
 
 working_directory = Path(__file__).parent
-data_path = Path(__file__).parent / "data/city_gross_erbjudanden_v47.json"
-db_path = Path(__file__).parent / "database/citygross_pipeline.duckdb"
+db_path = Path(__file__).parents[1] / "database/billigaste_kvittot_db.duckdb"
 
-@dlt.resource(write_disposition="merge", table_name="City_gross")
+@dlt.resource(write_disposition="replace", table_name="City_gross")
 def get_data():
-    with open(data_path) as f:
-        data = json.load(f)
-    
+    data = requests.get(url).json()
     for item in data["items"]:
-        #flat = flatten(item, separator="__")
+        item["butiksnamn"] = "City Gross"
+        item["vecka"] = vecka
+
         yield item
 
 def run_pipeline():
@@ -30,5 +30,4 @@ def run_pipeline():
     load_info = pipeline.run(get_data())
 
 if __name__ == "__main__":
-    #os.chdir(working_directory)
     run_pipeline()
