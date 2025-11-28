@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "name": "Frukt & Grönt",
+      "subcategories": [
+        "Frukt",
+        "Bär",
+        "Grönsaker",
+        "Sallad & örter",
+        "Ekologiskt",
+        "Potatis, lök & rotsaker",
+        "Torkad frukt & nötter",
+        "Säsong"
+      ]
+    },
+    {
+      "name": "Kött, Fågel & Fisk",
+      "subcategories": [
+        "Färskt kött",
+        "Färsk fågel",
+        "Färsk fisk & skaldjur",
+        "Chark",
+        "Korv",
+        "Färdigmarinerat",
+        "Ekologiskt"
+      ]
+    },
+    {
+      "name": "Mejeri & Ost",
+      "subcategories": [
+        "Mjölk, fil & yoghurt",
+        "Smör & margarin",
+        "Ost",
+        "Grädde & crème fraîche",
+        "Ägg",
+        "Växtbaserat",
+        "Dessertmejeri"
+      ]
+    },
+    {
+      "name": "Bröd & Bageri",
+      "subcategories": [
+        "Butiksbakat bröd",
+        "Formfranska",
+        "Fikabröd & bullar",
+        "Knäckebröd",
+        "Tortilla & wraps",
+        "Hamburger- och korvbröd",
+        "Glutenfritt"
+      ]
+    },
+    {
+      "name": "Frys",
+      "subcategories": [
+        "Fryst kött & fisk",
+        "Frysta grönsaker",
+        "Fryst frukt & bär",
+        "Färdigrätter",
+        "Pizza & piroger",
+        "Pommes & potatisprodukter",
+        "Glass & dessert",
+        "Fryst bröd"
+      ]
+    },
+    {
+      "name": "Kolonial",
+      "subcategories": [
+        "Pasta & ris",
+        "Konserver",
+        "Såser, ketchup & dressing",
+        "Oljor & vinäger",
+        "Kryddor & buljong",
+        "Bönor & vegetariskt",
+        "Bakning",
+        "Frukost",
+        "Kaffe & te",
+        "Barnmat",
+        "Världsmat"
+      ]
+    },
+    {
+      "name": "Snacks & Godis",
+      "subcategories": [
+        "Lösgodis",
+        "Choklad & godispåsar",
+        "Chips",
+        "Nötter & snacks",
+        "Popcorn",
+        "Smågodis",
+        "Tuggummi & halstabletter"
+      ]
+    },
+    {
+      "name": "Dryck",
+      "subcategories": [
+        "Läsk",
+        "Smaksatt vatten",
+        "Mineralvatten",
+        "Juice",
+        "Sportdryck",
+        "Energidryck",
+        "Saft",
+        "Folköl & cider",
+        "Kaffedryck"
+      ]
+    },
+    {
+      "name": "Hem & Städ",
+      "subcategories": [
+        "Tvättmedel",
+        "Sköljmedel",
+        "Städartiklar",
+        "Diskmedel",
+        "Toalett- och hushållspapper",
+        "Doft & luftvård",
+        "Förvaring"
+      ]
+    },
+    {
+      "name": "Hus & Husdjur",
+      "subcategories": [
+        "Hundmat",
+        "Kattmat & sand",
+        "Smådjur",
+        "Husdjurtillbehör",
+        "Trädgård",
+        "Grill (säsong)"
+      ]
+    },
+    {
+      "name": "Hemtextil, Kläder & Fritid",
+      "subcategories": [
+        "Kläder",
+        "Sport & fritid",
+        "Leksaker",
+        "Kontor & skolmaterial",
+        "Inredning",
+        "Hemtextil",
+        "Säsongsvaror"
+      ]
+    },
+    {
+      "name": "Hälsa & Skönhet",
+      "subcategories": [
+        "Hudvård",
+        "Hårvård",
+        "Tandvård",
+        "Smink",
+        "Deodorant",
+        "Apotek (receptfritt)",
+        "Kosttillskott",
+        "Hygienartiklar"
+      ]
+    },
+    {
+      "name": "Färdigmat & Deli",
+      "subcategories": [
+        "Salladsbar",
+        "Färdiglagat",
+        "Soppor",
+        "Deli-chark",
+        "Ostbar",
+        "Tapas & plock",
+        "Smörgåsar & wraps",
+        "Sushi"
+      ]
+    },
+    {
+      "name": "Baby & Barn",
+      "subcategories": [
+        "Blöjor",
+        "Barnmat",
+        "Våtservetter",
+        "Hudvård baby",
+        "Nappar & flaskor",
+        "Barnkläder"
+      ]
+    }
+  ]
+}
