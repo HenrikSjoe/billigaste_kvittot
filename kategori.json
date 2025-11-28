@@ -117,14 +117,32 @@
       ]
     },
     {
-      "name": "Hus & Husdjur",
+      "name": "Hus & Trädgård",
+      "subcategories": [
+        "Trädgård",
+        "Grill (säsong)",
+        "Verktyg & tillbehör",
+        "Glödlampor & batterier",
+        "Bilvård",
+        "Insektsmedel"
+      ]
+    },
+    {
+      "name": "Blommor & Växter",
+      "subcategories": [
+        "Snittblommor",
+        "Krukväxter",
+        "Säsongsblommor",
+        "Jord & planteringsprodukter"
+      ]
+    },
+        {
+      "name": "Djur",
       "subcategories": [
         "Hundmat",
         "Kattmat & sand",
         "Smådjur",
-        "Husdjurtillbehör",
-        "Trädgård",
-        "Grill (säsong)"
+        "Husdjurtillbehör"
       ]
     },
     {
