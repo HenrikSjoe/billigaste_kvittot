@@ -1,0 +1,22 @@
+sources:
+  - name: billigaste_kvittot_db   
+    schema: staging         
+    tables:
+      - name: stg_coop
+        identifier: Coop
+      - name: stg_coop_cluster
+        identifier: coop__cluster_interior_offers
+      - name: stg_coop_limitations
+        identifier: coop__content__limitations
+      - name: stg_willys
+        identifier: willys
+      - name: stg_willys_promotion
+        identifier: willys__potential_promotions
+      - name: stg_hemkop
+        identifier: hemkop
+      - name: stg_hemkop_promotion
+        identifier: hemkop__potential_promotions
+      - name: stg_citygross
+        identifier: City_gross
+      - name: stg_citygross_image
+        identifier: city_gross__images

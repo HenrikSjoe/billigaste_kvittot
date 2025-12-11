@@ -5,10 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "dbt-init>=0.2.7",
     "dbt>=1.0.0.40.11",
     "dlt>=1.18.2",
     "dotenv>=0.9.9",
     "duckdb>=1.4.2",
     "pandas>=2.3.3",
     "requests>=2.32.5",
+    "dbt-duckdb>=1.10.0",
 ]
