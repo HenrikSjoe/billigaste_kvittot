@@ -17,7 +17,7 @@ headers = {
 
 db_path = Path(__file__).parents[2] / "database/billigaste_kvittot_db.duckdb"
 
-@dlt.resource(write_disposition="append", table_name="Coop")
+@dlt.resource(write_disposition="merge",primary_key="eagId" ,table_name="Coop")
 def get_data():
     data = requests.get(url, headers=headers).json()
     for item in data:
