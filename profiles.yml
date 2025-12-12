@@ -1,0 +1,7 @@
+dbt_billigaste_kvittot:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: ../database/billigaste_kvittot_db.duckdb
+      threads: 5

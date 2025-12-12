@@ -17,24 +17,16 @@ headers = {
 
 db_path = Path(__file__).parents[2] / "database/billigaste_kvittot_db.duckdb"
 
-@dlt.resource(write_disposition="merge",primary_key="eagId" ,table_name="Coop")
-def get_data():
-    data = requests.get(url, headers=headers).json()
-    for item in data:
-        item["butiksnamn"] = "Coop"
-        item["vecka"] = week
+@dlt.source
+def coop_source():
+    @dlt.resource(write_disposition="merge",primary_key="eagId" ,table_name="Coop")
+    def get_coop():
+        data = requests.get(url, headers=headers).json()
+        for item in data:
+            item["butiksnamn"] = "Coop"
+            item["vecka"] = week
 
-        yield item
+            yield item
+    
+    return get_coop
 
-def coop_pipeline():
-    pipeline = dlt.pipeline(
-        pipeline_name="coop_pipeline",
-        destination= dlt.destinations.duckdb(db_path),
-        dataset_name="staging",
-    )
-
-
-    load_info = pipeline.run(get_data())
-
-if __name__ == "__main__":
-    coop_pipeline()

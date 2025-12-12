@@ -13,4 +13,8 @@ dependencies = [
     "pandas>=2.3.3",
     "requests>=2.32.5",
     "dbt-duckdb>=1.10.0",
+    "dagster>=1.12.6",
+    "dagster-dbt>=0.28.6",
+    "dagster-dlt>=0.28.6",
+    "dagster-webserver>=1.12.6",
 ]
