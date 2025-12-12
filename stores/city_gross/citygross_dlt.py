@@ -9,24 +9,17 @@ url = "https://www.citygross.se/api/v1/Loop54/category/2930/products?breadcrumb=
 
 db_path = Path(__file__).parents[2] / "database/billigaste_kvittot_db.duckdb"
 
-@dlt.resource(write_disposition="append", table_name="City_gross")
-def get_data():
-    data = requests.get(url).json()
-    for item in data["items"]:
-        item["butiksnamn"] = "City Gross"
-        item["vecka"] = week
+@dlt.source
+def citygross_source():
+    @dlt.resource(write_disposition="append", table_name="City_gross")
+    def get_citygross():
+        data = requests.get(url).json()
+        for item in data["items"]:
+            item["butiksnamn"] = "City Gross"
+            item["vecka"] = week
 
-        yield item
-
-def citygross_pipeline():
-    pipeline = dlt.pipeline(
-        pipeline_name="citygross_pipeline",
-        destination= dlt.destinations.duckdb(db_path),
-        dataset_name="staging",
-    )
+            yield item
 
 
-    load_info = pipeline.run(get_data())
+    return get_citygross()
 
-if __name__ == "__main__":
-    citygross_pipeline()

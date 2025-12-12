@@ -1,22 +1,63 @@
+version: 2
+
 sources:
-  - name: billigaste_kvittot_db   
-    schema: staging         
+  - name: billigaste_kvittot_db
+    schema: staging
     tables:
+      # --- COOP ---
       - name: stg_coop
-        identifier: Coop
+        identifier: Coop 
+        meta:
+          dagster:
+            asset_key: ["staging", "coop"] 
+
       - name: stg_coop_cluster
         identifier: coop__cluster_interior_offers
+        meta:
+          dagster:
+            asset_key: ["staging", "coop__cluster_interior_offers"]
+
       - name: stg_coop_limitations
         identifier: coop__content__limitations
+        meta:
+          dagster:
+            asset_key: ["staging", "coop__content__limitations"]
+
+      # --- WILLYS ---
       - name: stg_willys
         identifier: willys
+        meta:
+          dagster:
+            asset_key: ["staging", "willys"]
+
       - name: stg_willys_promotion
         identifier: willys__potential_promotions
+        meta:
+          dagster:
+            asset_key: ["staging", "willys__potential_promotions"]
+
+      # --- HEMKÖP ---
       - name: stg_hemkop
         identifier: hemkop
+        meta:
+          dagster:
+            asset_key: ["staging", "hemkop"]
+
       - name: stg_hemkop_promotion
         identifier: hemkop__potential_promotions
+        meta:
+          dagster:
+            asset_key: ["staging", "hemkop__potential_promotions"]
+
+      # --- CITY GROSS ---
       - name: stg_citygross
         identifier: City_gross
+        meta:
+          dagster:
+            asset_key: ["staging", "city_gross"] 
+
       - name: stg_citygross_image
         identifier: city_gross__images
+        meta:
+          dagster:
+            asset_key: ["staging", "city_gross__images"]
