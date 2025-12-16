@@ -76,10 +76,10 @@ job_dbt = dg.define_asset_job("job_dbt", selection=[dbt_models])
 # Vi sprider ut dem med 15 minuters mellanrum. 
 # Om alla startar 06:00 exakt samtidigt kommer databasen låsa sig.
 
-schedule_citygross = dg.ScheduleDefinition(job=job_citygross, cron_schedule="0 6 * * 1")   # 06:00
-schedule_coop = dg.ScheduleDefinition(job=job_coop, cron_schedule="15 6 * * 1")          # 06:15
-schedule_hemkop = dg.ScheduleDefinition(job=job_hemkop, cron_schedule="30 6 * * 1")      # 06:30
-schedule_willys = dg.ScheduleDefinition(job=job_willys, cron_schedule="45 6 * * 1")      # 06:45
+schedule_citygross = dg.ScheduleDefinition(job=job_citygross, cron_schedule="0 5 * * 1")   # 06:00
+schedule_coop = dg.ScheduleDefinition(job=job_coop, cron_schedule="5 5 * * 1")          # 06:15
+schedule_hemkop = dg.ScheduleDefinition(job=job_hemkop, cron_schedule="10 5 * * 1")      # 06:30
+schedule_willys = dg.ScheduleDefinition(job=job_willys, cron_schedule="15 5 * * 1")      # 06:45
 
 # --- SENSOR (Kör DBT efter att något av butiksjobben är klart) ---
 
