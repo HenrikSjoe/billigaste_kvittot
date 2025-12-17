@@ -3,6 +3,7 @@ FROM python:3.13-slim
 WORKDIR /app/frontend
 
 COPY frontend/ /app/frontend/
+COPY assets/ /app/assets/
 
 RUN pip install flask duckdb
 
