@@ -14,7 +14,7 @@ coalesce(ordanary_price_with_null,'Saknar ordinarie pris') as ordinary_price,
 coalesce(c.price_information__discount_value, co.price_information__discount_value) as campain_price_with_null,
 coalesce (campain_price_with_null, c.price_information__discount_value__v_double) as promotion_price,
 coalesce(c.price_information__unit, c.price_information__deal_type) as coalesce_unit,
-case 
+case
   when coalesce_unit = 'förp' then 'kr/st'
   when coalesce_unit = 'port' then 'kr/st'
   when coalesce_unit = 'port.' then 'kr/st'
@@ -30,9 +30,9 @@ cl.value as max_quantity,
 c.category_group as category,
 c.category_team__name as category_group,
 c.campaign_end_date as end_date,
-str_split(c.content__image_url, '//')[2] as image_url,
+concat('https:', c.content__image_url) as image_url,
 c.eag_id as promotion_id,
 from stg_coop c
 left join staging.coop__cluster_interior_offers co on co._dlt_parent_id = c._dlt_id
 left join staging.coop__content__limitations cl on cl._dlt_parent_id = c._dlt_id
-order by vecka desc  
+order by vecka desc
