@@ -30,9 +30,12 @@ cl.value as max_quantity,
 c.category_group as category,
 c.category_team__name as category_group,
 c.campaign_end_date as end_date,
-concat('https:', c.content__image_url) as image_url,
+coalesce(
+    nullif(concat('https:', co.content__image_url), 'https:'),
+    nullif(concat('https:', c.content__image_url), 'https:')
+) as image_url,
 c.eag_id as promotion_id,
 from stg_coop c
-left join staging.coop__cluster_interior_offers co on co._dlt_parent_id = c._dlt_id
+left join staging.coop__cluster_interior_offers co on co.eag_id = c.eag_id
 left join staging.coop__content__limitations cl on cl._dlt_parent_id = c._dlt_id
 order by vecka desc

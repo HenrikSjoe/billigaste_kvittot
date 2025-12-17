@@ -63,7 +63,7 @@
                     </p>
 
                     <p class="date">
-                        ⏰ Gäller till {{ p.end_date }}
+                        ⏰ Gäller till {{ p.end_date.strftime('%Y-%m-%d') if p.end_date else '' }}
                     </p>
                 </div>
             {% endfor %}

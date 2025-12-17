@@ -1,4 +1,5 @@
 from pathlib import Path
+from datetime import date
 from flask import Flask, render_template, request
 import duckdb
 
@@ -15,6 +16,8 @@ app = Flask(
 
 def get_products(filters):
     con = duckdb.connect(DB_PATH, read_only=True)
+
+    today = date.today().isoformat()
 
     query = """
     SELECT
@@ -33,9 +36,10 @@ def get_products(filters):
         image_url
     FROM marts.marts_all_stores
     WHERE promotion_price IS NOT NULL
+      AND end_date >= ?
     """
 
-    params = []
+    params = [today]
 
     if filters["stores"]:
         query += " AND store IN ({})".format(
@@ -51,7 +55,7 @@ def get_products(filters):
         query += " AND LOWER(product_name) LIKE ?"
         params.append(f"%{filters['search'].lower()}%")
 
-    query += " ORDER BY promotion_price ASC LIMIT 200"
+    # query += " ORDER BY promotion_price ASC LIMIT 200"
 
     df = con.execute(query, params).fetchdf()
     con.close()
