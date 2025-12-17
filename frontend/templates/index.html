@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Billigaste Kvittot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-content">
+        <a href="{{ url_for('index') }}" class="logo-link">
+            <img src="{{ url_for('static', filename='assets/bk_logo.png') }}" alt="Billigaste Kvittot Logga" class="site-logo">
+        </a>
+    </div>
+</header>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <form method="get">
+
+            <h3>Butiker</h3>
+            {% for s in ["Hemköp", "Coop", "Willys", "City Gross"] %}
+                <label class="checkbox">
+                    <input type="checkbox" name="store" value="{{ s }}"
+                        {% if s in filters.stores %}checked{% endif %}>
+                    {{ s }}
+                </label>
+            {% endfor %}
+
+            <h3>Varumärke</h3>
+            <select name="brand">
+                {% for b in brands %}
+                    <option value="{{ b }}"
+                        {% if b == filters.brand %}selected{% endif %}>
+                        {{ b }}
+                    </option>
+                {% endfor %}
+            </select>
+
+            <h3>Sök</h3>
+            <input type="text" name="search" value="{{ filters.search }}">
+
+            <div class="sidebar-actions">
+                <button class="btn-primary" type="submit">
+                    Filtrera
+                </button>
+
+                <a href="{{ url_for('index') }}" class="btn-secondary">
+                    Rensa
+                </a>
+            </div>
+        </form>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+        <div class="result-header">
+            Vecka <strong>{{ week }} </strong>Totalt <strong> {{ product_count }}</strong> erbjudanden
+        </div>
+
+        <div class="grid">
+            {% for p in products %}
+            <div class="card">
+
+                <!-- {% if p.promo_text %}
+                <div class="promo-tag">{{ p.promo_text }}</div>
+                {% endif %} -->
+
+                <div class="image-wrapper">
+                    <img src="{{ p.image_url }}" alt="{{ p.product_name }}">
+                </div>
+
+                <div class="card-body">
+                    <h4>{{ p.product_name }}</h4>
+                    <p class="meta">{{ p.brand }} • {{ p.store }}</p>
+
+                    <div class="price-row">
+                        {% if p.promo_text %}
+                            <span class="promo-price">{{ p.promo_text }}</span>
+                        {% else %}
+                            <span class="promo-price">
+                                {{ p.promotion_price_fmt }}
+                            </span>
+                            <span class="unit">{{ p.unit }}</span>
+                        {% endif %}
+                    </div>
+
+                    {% if p.ordinary_price_fmt %}
+                    <div class="ordinary-price">
+                        Ord. pris {{ p.ordinary_price_fmt }} {{ p.unit }}
+                    </div>
+                    {% endif %}
+
+                    {% if p.max_quantity > 0 %}
+                    <div class="limit">
+                        Max {{ p.max_quantity }} st/hushåll
+                    </div>
+                    {% endif %}
+
+                    {% if p.end_date %}
+                    <span class="badge">
+                        Gäller t.o.m {{ p.end_date.strftime('%Y-%m-%d') }}
+                    </span>
+                    {% endif %}
+                </div>
+
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+
+</div>
+
+</body>
+</html>
