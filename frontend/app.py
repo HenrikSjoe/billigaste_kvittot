@@ -15,6 +15,13 @@ def safe_float(value):
     except (TypeError, ValueError):
         return None
 
+STORE_LOGOS = {
+    "City Gross": "city_gross.png",
+    "Coop": "coop.png",
+    "Hemköp": "hemkop.png",
+    "Willys": "willys.png",
+}
+
 
 def get_products(filters):
     con = duckdb.connect(DB_PATH, read_only=True)
@@ -93,6 +100,9 @@ def get_products(filters):
             )
         else:
             p["ordinary_price_fmt"] = None
+
+        # ---- Butikslogga ----
+        p["store_logo"] = STORE_LOGOS.get(p.get("store"), "")
 
     return products
 
