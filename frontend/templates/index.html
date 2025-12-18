@@ -19,19 +19,20 @@
 
     <!-- SIDEBAR -->
     <aside class="sidebar">
-        <form method="get">
+        <form method="get" id="filter-form">
 
             <h3>Butiker</h3>
-            {% for s in ["Hemköp", "Coop", "Willys", "City Gross"] %}
+            {% for s in ["City Gross", "Coop", "Hemköp", "Willys", ] %}
                 <label class="checkbox">
                     <input type="checkbox" name="store" value="{{ s }}"
-                        {% if s in filters.stores %}checked{% endif %}>
+                        {% if s in filters.stores %}checked{% endif %}
+                        onchange="this.form.submit()">
                     {{ s }}
                 </label>
             {% endfor %}
 
             <h3>Varumärke</h3>
-            <select name="brand">
+            <select name="brand" onchange="this.form.submit()">
                 {% for b in brands %}
                     <option value="{{ b }}"
                         {% if b == filters.brand %}selected{% endif %}>
@@ -41,15 +42,12 @@
             </select>
 
             <h3>Sök</h3>
-            <input type="text" name="search" value="{{ filters.search }}">
+            <input type="text" name="search" value="{{ filters.search }}"
+                   placeholder="Tryck Enter för att söka">
 
             <div class="sidebar-actions">
-                <button class="btn-primary" type="submit">
-                    Filtrera
-                </button>
-
                 <a href="{{ url_for('index') }}" class="btn-secondary">
-                    Rensa
+                    Rensa filter
                 </a>
             </div>
         </form>
@@ -75,7 +73,8 @@
 
                 <div class="card-body">
                     <h4>{{ p.product_name }}</h4>
-                    <p class="meta">{{ p.brand }} • {{ p.store }}</p>
+                    <img src="{{ url_for('static', filename='assets/' + p.store_logo) }}" alt="{{ p.store }}" class="store-logo">
+                    <p class="meta">{{ p.brand }}</p>
 
                     <div class="price-row">
                         {% if p.promo_text %}
@@ -96,7 +95,7 @@
 
                     {% if p.max_quantity > 0 %}
                     <div class="limit">
-                        Max {{ p.max_quantity }} st/hushåll
+                        Max {{ p.max_quantity }} köp / hushåll               
                     </div>
                     {% endif %}
 
