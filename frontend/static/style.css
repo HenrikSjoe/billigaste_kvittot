@@ -339,6 +339,13 @@ body {
     margin-bottom: 4px;
 }
 
+.product-savings {
+    font-size: 13px;
+    color: #d38585;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
 .limit {
     font-size: 12px;
     color: #f59e0b;
@@ -629,7 +636,7 @@ html {
 }
 
 .cart-total span:first-child {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 600;
     color: #64748b;
 }

@@ -13,7 +13,7 @@
             <img src="{{ url_for('static', filename='assets/bk_logo.png') }}" alt="Billigaste Kvittot Logga" class="site-logo">
         </a>
         <a href="{{ url_for('cart') }}" class="cart-link">
-            Varukorg ({{ cart_count }})
+            Inköpslista ({{ cart_count }})
         </a>
     </div>
 </header>
@@ -36,7 +36,7 @@
 
             <h3>Varumärke</h3>
             <div class="brand-dropdown">
-                <input type="text" id="brand-search" placeholder="Sök varumärke..."
+                <input type="text" id="brand-search" placeholder="Filtrera varumärke..."
                        onfocus="openBrandList()" oninput="filterBrands()">
                 <div class="brand-list" id="brand-list">
                     {% for b in brands if b != "Alla" %}
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <h3>Sök</h3>
+            <h3>Produktsök</h3>
             <input type="text" name="search" value="{{ filters.search }}"
                    placeholder="Tryck Enter för att söka" id="product-search">
 
@@ -98,6 +98,12 @@
                     {% if p.ordinary_price_fmt %}
                     <div class="ordinary-price">
                         Ord. pris {{ p.ordinary_price_fmt }} {{ p.unit }}
+                    </div>
+                    {% endif %}
+
+                    {% if p.savings_fmt %}
+                    <div class="product-savings">
+                        Du sparar {{ p.savings_fmt }} kr
                     </div>
                     {% endif %}
 
