@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Billigaste Kvittot</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
 </head>
 <body>
 
@@ -32,14 +32,19 @@
             {% endfor %}
 
             <h3>Varumärke</h3>
-            <select name="brand" onchange="this.form.submit()">
-                {% for b in brands %}
-                    <option value="{{ b }}"
-                        {% if b == filters.brand %}selected{% endif %}>
+            <div class="brand-dropdown">
+                <input type="text" id="brand-search" placeholder="Sök varumärke..."
+                       onfocus="openBrandList()" oninput="filterBrands()">
+                <div class="brand-list" id="brand-list">
+                    {% for b in brands if b != "Alla" %}
+                    <label class="checkbox brand-item">
+                        <input type="checkbox" name="brand" value="{{ b }}"
+                            {% if b in filters.brands %}checked{% endif %}>
                         {{ b }}
-                    </option>
-                {% endfor %}
-            </select>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
 
             <h3>Sök</h3>
             <input type="text" name="search" value="{{ filters.search }}"
@@ -113,5 +118,31 @@
 
 </div>
 
+<script>
+let brandListOpen = false;
+
+function openBrandList() {
+    document.getElementById('brand-list').classList.add('open');
+    brandListOpen = true;
+}
+
+function filterBrands() {
+    const search = document.getElementById('brand-search').value.toLowerCase();
+    document.getElementById('brand-list').classList.add('open');
+    brandListOpen = true;
+    document.querySelectorAll('.brand-item').forEach(item => {
+        item.style.display = item.textContent.toLowerCase().includes(search) ? '' : 'none';
+    });
+}
+
+document.addEventListener('click', function(e) {
+    const dropdown = document.querySelector('.brand-dropdown');
+    if (!dropdown.contains(e.target) && brandListOpen) {
+        document.getElementById('brand-list').classList.remove('open');
+        brandListOpen = false;
+        document.getElementById('filter-form').submit();
+    }
+});
+</script>
 </body>
 </html>
