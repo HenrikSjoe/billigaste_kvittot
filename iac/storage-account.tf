@@ -1,5 +1,5 @@
 resource "azurerm_storage_account" "storage_account" {
-  name = "hrstorage${random_integer.number.result}"
+  name = "bkstorage${random_integer.number.result}"
   account_tier = "Standard"
   location = var.location
   resource_group_name = azurerm_resource_group.storage_rg.name

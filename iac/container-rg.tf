@@ -1,5 +1,5 @@
 resource "azurerm_container_registry" "acr" {
-    name = "hrprojectacr${random_integer.number.result}"
+    name = "bkprojectacr${random_integer.number.result}"
     location = var.location
     resource_group_name = azurerm_resource_group.storage_rg.name
     sku = "Basic"
@@ -11,8 +11,8 @@ resource "null_resource" "build_and_push_pipeline" {
     command = <<EOT
       az acr login --name ${azurerm_container_registry.acr.name}
       docker buildx build --platform linux/amd64 \
-        -f ../dockerfile.dwh \
-        -t ${azurerm_container_registry.acr.name}.azurecr.io/hr-project-pipeline:latest \
+        -f ../dockerfile.pipe \
+        -t ${azurerm_container_registry.acr.name}.azurecr.io/billigaste-pipeline:latest \
         ../ --push
     EOT
   }
@@ -40,8 +40,8 @@ resource "azurerm_container_group" "acg" {
   }
 
   container {
-    name   = "hr-pipeline"
-    image  = "${azurerm_container_registry.acr.name}.azurecr.io/hr-project-pipeline:latest"
+    name   = "billigaste-pipeline"
+    image  = "${azurerm_container_registry.acr.name}.azurecr.io/billigaste-pipeline:latest"
     cpu    = "1"
     memory = "4"
 
@@ -57,7 +57,8 @@ resource "azurerm_container_group" "acg" {
 
     environment_variables = {
       DBT_PROFILES_DIR = "/mnt/data/.dbt"
-      DUCKDB_PATH      = "/mnt/data/job_ads.duckdb"
+      DUCKDB_PATH      = "/mnt/data/billigaste_kvittot.duckdb"
+      COOP_API_KEY     = local.coop_api_key
     }
 
     volume {

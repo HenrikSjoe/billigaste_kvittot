@@ -3,5 +3,5 @@ dbt_billigaste_kvittot:
   outputs:
     dev:
       type: duckdb
-      path: ../database/billigaste_kvittot_db.duckdb
+      path: "{{ env_var('DUCKDB_PATH') }}"
       threads: 5

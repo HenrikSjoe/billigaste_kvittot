@@ -3,8 +3,8 @@ resource "null_resource" "build_and_push_dashboard" {
     command = <<EOT
       az acr login --name ${azurerm_container_registry.acr.name}
       docker buildx build --platform linux/amd64 \
-        -f ../dockerfile.dashboard \
-        -t ${azurerm_container_registry.acr.name}.azurecr.io/hr-project-dashboard:latest \
+        -f ../dockerfile.webapp \
+        -t ${azurerm_container_registry.acr.name}.azurecr.io/billigaste-webapp:latest \
         ../ --push
     EOT
   }
@@ -29,7 +29,7 @@ resource "azurerm_linux_web_app" "app" {
 
   site_config {
     application_stack {
-      docker_image_name   = "${azurerm_container_registry.acr.name}.azurecr.io/hr-project-dashboard:latest"
+      docker_image_name   = "${azurerm_container_registry.acr.name}.azurecr.io/billigaste-webapp:latest"
       docker_registry_url = "https://${azurerm_container_registry.acr.login_server}"
     }
   }
@@ -44,9 +44,9 @@ resource "azurerm_linux_web_app" "app" {
   }
 
   app_settings = {
-    WEBSITES_PORT = "8501"
+    WEBSITES_PORT = "5000"
     DBT_PROFILES_DIR = "/mnt/data/.dbt"
-    DUCKDB_PATH      = "/mnt/data/job_ads.duckdb"
+    DUCKDB_PATH      = "/mnt/data/billigaste_kvittot.duckdb"
   }
 
   depends_on = [
