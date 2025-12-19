@@ -33,7 +33,12 @@
                 <div class="cart-store-header">
                     <img src="{{ url_for('static', filename='assets/' + store_logos.get(store, '')) }}" alt="{{ store }}" class="cart-store-logo">
                     <h2>{{ store }}</h2>
-                    <span class="cart-store-subtotal">{{ "%.2f"|format(data.subtotal)|replace(".", ",") }} kr</span>
+                    <div class="cart-store-totals">
+                        <span class="cart-store-subtotal">{{ "%.2f"|format(data.subtotal)|replace(".", ",") }} kr</span>
+                        {% if data.savings > 0 %}
+                        <span class="cart-store-savings">Du sparar: {{ "%.2f"|format(data.savings)|replace(".", ",") }} kr</span>
+                        {% endif %}
+                    </div>
                 </div>
 
                 <div class="cart-products">
@@ -59,7 +64,12 @@
             <div class="cart-summary">
                 <div class="cart-total">
                     <span>Totalt:</span>
-                    <span class="cart-total-price">{{ "%.2f"|format(total)|replace(".", ",") }} kr</span>
+                    <div class="cart-total-amounts">
+                        <span class="cart-total-price">{{ "%.2f"|format(total)|replace(".", ",") }} kr</span>
+                        {% if total_savings > 0 %}
+                        <span class="cart-total-savings">Du sparar totalt: {{ "%.2f"|format(total_savings)|replace(".", ",") }} kr</span>
+                        {% endif %}
+                    </div>
                 </div>
                 <div class="cart-actions">
                     <a href="{{ url_for('index') }}" class="btn-secondary">Fortsätt handla</a>
