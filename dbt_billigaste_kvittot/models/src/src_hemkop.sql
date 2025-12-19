@@ -6,7 +6,7 @@ with
 SELECT 
     butiksnamn as store, --
     vecka as week, --
-    hp.price__value as promotion_price, --
+    hp.price__value * coalesce(hp.qualifying_count, 1) as promotion_price, --
     h.price_unit as unit, --
     h.price_value as ordinary_price, --
     h.name as product_name, --
@@ -16,7 +16,8 @@ SELECT
     h.image__url as image_url, --
     h.product_line2 as description, --
     h.display_volume as product_unit, --
-    h.manufacturer as brand, --
+    COALESCE(([upper (x[1])||x[2:] 
+      for x in (h.manufacturer).string_split(' ')]).list_aggr('string_agg',' '), 'Varumärke: Okänt') as brand,
     COALESCE(str_split(hp.redeem_limit_label, ' ')[2], '0') AS max_quantity,
     hp.qualifying_count as qualification_quantity, --
     h.code as promotion_id, --

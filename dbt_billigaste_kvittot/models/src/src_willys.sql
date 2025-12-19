@@ -6,7 +6,7 @@ with
 SELECT 
     butiksnamn as store, --
     vecka as week, --
-    wp.price__value as promotion_price, --
+    wp.price__value * coalesce(wp.qualifying_count, 1) as promotion_price, --
     w.price_unit as unit, --
     w.price_value as ordinary_price, --
     w.name as product_name, --
@@ -15,7 +15,9 @@ SELECT
     w.image__url as image_url, --
     w.product_line2 as description, --
     w.display_volume as product_unit, --
-    w.manufacturer as brand, --
+    COALESCE(([upper (x[1])||x[2:] 
+      for x in 
+      (w.manufacturer).string_split(' ')]).list_aggr('string_agg',' '), 'Varumärke: Okänt') as brand,
     COALESCE(str_split(wp.redeem_limit_label, ' ')[2], '0') AS max_quantity,
     wp.qualifying_count as qualification_quantity, --
     w.code as promotion_id, --

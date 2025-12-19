@@ -1,0 +1,15 @@
+FROM python:3.11-slim
+
+WORKDIR /pipeline/orchestration
+
+
+COPY stores/hemkop/ /pipeline/orchestration/
+COPY stores/willys/ /pipeline/orchestration/
+COPY stores/coop/ /pipeline/orchestration/
+COPY stores/city_gross/ /pipeline/orchestration/
+COPY dbt_billigaste_kvittot/ /pipeline/dbt_billigaste_kvittot/
+COPY orchestration/ /pipeline/orchestration/
+
+RUN pip install dagster dagster-dbt dagster-dlt==0.28.6 dagster-webserver dbt-core dbt-duckdb duckdb dlt==1.18.2
+
+CMD ["dagster", "dev", "-f", "definitions.py", "-h", "0.0.0.0", "-p", "3000"]

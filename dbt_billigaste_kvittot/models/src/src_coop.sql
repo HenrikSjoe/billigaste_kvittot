@@ -6,7 +6,8 @@ with
 select
 butiksnamn as store,
 vecka as week,
-coalesce (c.content__brand, 'Okänd') as brand,
+COALESCE(([upper (x[1])||x[2:] 
+  for x in (c.content__brand).string_split(' ')]).list_aggr('string_agg',' '), 'Varumärke: Okänt') as brand,
 coalesce(co.content__title, c.content__title) as product_name,
 coalesce(c.content__description, co.content__description) as description,
 cast(coalesce(c.price_information__ordinary_price,co.price_information__ordinary_price)as string) as ordanary_price_with_null,

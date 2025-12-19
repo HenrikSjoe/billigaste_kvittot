@@ -3,15 +3,18 @@ import dlt
 import dagster as dg
 from dagster_dlt import DagsterDltResource, dlt_assets
 from dagster_dbt import DbtCliResource, DbtProject, dbt_assets
-from stores.city_gross.citygross_dlt import citygross_source
-from stores.willys.willys_dlt import willys_source
-from stores.hemkop.hemkop_dlt import hemkop_source
-from stores.coop.coop_dlt import coop_source
+from citygross_dlt import citygross_source
+from willys_dlt import willys_source
+from hemkop_dlt import hemkop_source
+from coop_dlt import coop_source
+import os
 
 # --- SETUP ---
-db_path = Path(__file__).parents[1] / "database/billigaste_kvittot_db.duckdb"
+#db_path = Path(__file__).parents[1] / "database/billigaste_kvittot_db.duckdb"
+db_path = os.getenv("DUCKDB_PATH")
 dbt_project_directory = Path(__file__).parents[1] / "dbt_billigaste_kvittot"
-profiles_dir = Path(__file__).parents[1] 
+# profiles_dir = Path(__file__).parents[1] 
+profiles_dir = os.getenv("DBT_PROFILES_DIR")
 
 dbt_project = DbtProject(
     project_dir=dbt_project_directory,

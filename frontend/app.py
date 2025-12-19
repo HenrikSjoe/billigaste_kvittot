@@ -6,6 +6,7 @@ import datetime
 
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR.parent / "database" / "billigaste_kvittot_db.duckdb"
+#DB_PATH = Path("/mnt/data/billigaste_kvittot.duckdb")
 
 app = Flask(__name__)
 
@@ -37,6 +38,7 @@ def get_products(filters):
         ordinary_price,
         promotion_price,
         unit,
+        product_unit,
         qualification_quantity,
         max_quantity,
         category,
@@ -75,6 +77,7 @@ def get_products(filters):
         p["ordinary_price"] = safe_float(p.get("ordinary_price"))
         p["qualification_quantity"] = int(p.get("qualification_quantity") or 1)
         p["max_quantity"] = int(p.get("max_quantity") or 0)
+        p["product_unit"] = str(p.get("product_unit"))
 
         # ---- Promo text (X för Y) ----
         if p["qualification_quantity"] > 1 and p["promotion_price"] is not None:
@@ -141,4 +144,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8000)
