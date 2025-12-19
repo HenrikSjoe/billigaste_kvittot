@@ -7,6 +7,7 @@ from citygross_dlt import citygross_source
 from willys_dlt import willys_source
 from hemkop_dlt import hemkop_source
 from coop_dlt import coop_source
+from ica_dlt import ica_source
 import os
 
 # --- SETUP ---
@@ -59,6 +60,14 @@ def hemkop_load(context: dg.AssetExecutionContext, dlt: DagsterDltResource):
 def willys_load(context: dg.AssetExecutionContext, dlt: DagsterDltResource):
     yield from dlt.run(context=context)
 
+@dlt_assets(
+    dlt_source=ica_source(),
+    dlt_pipeline=dlt.pipeline(pipeline_name="ica_pipeline", destination=dlt.destinations.duckdb(db_path), dataset_name="staging"),
+    group_name='promotion_data',
+)
+def ica_load(context: dg.AssetExecutionContext, dlt: DagsterDltResource):
+    yield from dlt.run(context=context)
+
 # --- DBT ASSETS (TRANSFORMATION) ---
 
 @dbt_assets(manifest=dbt_project.manifest_path)
@@ -71,6 +80,7 @@ job_citygross = dg.define_asset_job("job_citygross", selection=[citygross_load])
 job_coop = dg.define_asset_job("job_coop", selection=[coop_load])
 job_hemkop = dg.define_asset_job("job_hemkop", selection=[hemkop_load])
 job_willys = dg.define_asset_job("job_willys", selection=[willys_load])
+job_ica = dg.define_asset_job("job_ica", selection=[ica_load])
 
 job_dbt = dg.define_asset_job("job_dbt", selection=[dbt_models])
 
@@ -83,6 +93,7 @@ schedule_citygross = dg.ScheduleDefinition(job=job_citygross, cron_schedule="0 5
 schedule_coop = dg.ScheduleDefinition(job=job_coop, cron_schedule="5 5 * * 1")          # 06:15
 schedule_hemkop = dg.ScheduleDefinition(job=job_hemkop, cron_schedule="10 5 * * 1")      # 06:30
 schedule_willys = dg.ScheduleDefinition(job=job_willys, cron_schedule="15 5 * * 1")      # 06:45
+schedule_ica = dg.ScheduleDefinition(job=job_ica, cron_schedule="15 10 * * 1")      # 06:45
 
 # --- SENSOR (Kör DBT efter att något av butiksjobben är klart) ---
 
@@ -92,7 +103,7 @@ schedule_willys = dg.ScheduleDefinition(job=job_willys, cron_schedule="15 5 * * 
 )
 def trigger_dbt_after_store_updates(context):
     # Lista på jobb som ska trigga en uppdatering av DBT-modellerna
-    store_jobs = ["job_citygross", "job_coop", "job_hemkop", "job_willys"]
+    store_jobs = ["job_citygross", "job_coop", "job_hemkop", "job_willys", "job_ica"]
     
     if context.dagster_run.job_name in store_jobs:
         return dg.RunRequest()
@@ -100,12 +111,12 @@ def trigger_dbt_after_store_updates(context):
 # --- DEFINITIONS ---
 
 defs = dg.Definitions(
-    assets=[citygross_load, willys_load, coop_load, hemkop_load, dbt_models],
+    assets=[citygross_load, willys_load, coop_load, hemkop_load, ica_load ,dbt_models],
     resources={
         "dlt": dlt_resource,
         "dbt": dbt_resource,
     },
-    jobs=[job_citygross, job_coop, job_hemkop, job_willys, job_dbt],
-    schedules=[schedule_citygross, schedule_coop, schedule_hemkop, schedule_willys],
+    jobs=[job_citygross, job_coop, job_hemkop, job_willys, job_dbt, job_ica],
+    schedules=[schedule_citygross, schedule_coop, schedule_hemkop, schedule_willys, schedule_ica],
     sensors=[trigger_dbt_after_store_updates],
 )
