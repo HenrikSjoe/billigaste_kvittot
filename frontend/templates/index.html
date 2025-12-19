@@ -12,6 +12,9 @@
         <a href="{{ url_for('index') }}" class="logo-link">
             <img src="{{ url_for('static', filename='assets/bk_logo.png') }}" alt="Billigaste Kvittot Logga" class="site-logo">
         </a>
+        <a href="{{ url_for('cart') }}" class="cart-link">
+            Varukorg ({{ cart_count }})
+        </a>
     </div>
 </header>
 
@@ -109,6 +112,10 @@
                         Gäller t.o.m {{ p.end_date.strftime('%Y-%m-%d') }}
                     </span>
                     {% endif %}
+
+                    <button type="button" class="btn-add-cart" data-product-id="{{ p.product_id }}">
+                        + Jämför
+                    </button>
                 </div>
 
             </div>
@@ -156,6 +163,23 @@ document.getElementById('product-search').addEventListener('keydown', function(e
         e.preventDefault();
         document.getElementById('filter-form').submit();
     }
+});
+
+// Lägg till i varukorg utan att ladda om sidan
+document.querySelectorAll('.btn-add-cart').forEach(btn => {
+    btn.addEventListener('click', function() {
+        const productId = this.dataset.productId;
+        fetch('/cart/add/' + productId)
+            .then(response => {
+                if (response.ok) {
+                    // Uppdatera varukorg-räknaren
+                    const cartLink = document.querySelector('.cart-link');
+                    const match = cartLink.textContent.match(/\((\d+)\)/);
+                    const currentCount = match ? parseInt(match[1]) : 0;
+                    cartLink.textContent = 'Varukorg (' + (currentCount + 1) + ')';
+                }
+            });
+    });
 });
 </script>
 </body>
