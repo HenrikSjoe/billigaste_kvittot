@@ -1,0 +1,11 @@
+FROM python:3.13-slim
+
+WORKDIR /app/frontend
+
+COPY frontend/ /app/frontend/
+
+RUN pip install flask duckdb numpy gunicorn pandas
+
+EXPOSE 5000
+
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "app:app"]

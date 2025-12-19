@@ -3,7 +3,7 @@ with src_hemkop as (select * from {{ ref('src_hemkop') }})
 select 
     store,
     week,
-    COALESCE(brand,'Okänt') as brand,
+    brand,
     product_name,
     description,
     round(ordinary_price, 2) as ordinary_price,

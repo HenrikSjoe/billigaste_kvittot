@@ -3,7 +3,7 @@ with src_city_gross as (select * from {{ ref('src_city_gross') }})
 select 
     store,
     week,
-    COALESCE(brand,country_of_origin ) as brand,
+    COALESCE(brand, 'Varumärke: Okänt' ) as brand,
     product_name,
     description,
     round(ordinary_price, 2) as ordinary_price,

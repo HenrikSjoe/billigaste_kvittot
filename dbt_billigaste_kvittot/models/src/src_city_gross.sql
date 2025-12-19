@@ -13,7 +13,8 @@ select
     cg.super_category as category,
     concat('https://www.citygross.se/images/products/', cgi.url) as image_url,
     cg.description,
-    cg.brand,
+    COALESCE(([upper (x[1])||x[2:] 
+        for x in (LOWER(cg.brand)).string_split(' ')]).list_aggr('string_agg',' '), country_of_origin) as brand,
     cg.product_store_details__prices__active_promotion__min_quantity as qualification_quantity,
     cg.product_store_details__prices__active_promotion__to as end_date,
     cg.product_store_details__prices__active_promotion__max_applied_per_receipt as max_quantity,

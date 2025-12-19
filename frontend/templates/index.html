@@ -74,7 +74,7 @@
                 <div class="card-body">
                     <h4>{{ p.product_name }}</h4>
                     <img src="{{ url_for('static', filename='assets/' + p.store_logo) }}" alt="{{ p.store }}" class="store-logo">
-                    <p class="meta">{{ p.brand }}</p>
+                    <p class="meta">{{ p.brand }} - {{p.product_unit}}</p> 
 
                     <div class="price-row">
                         {% if p.promo_text %}

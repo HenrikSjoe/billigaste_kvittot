@@ -1,6 +1,5 @@
 import dlt
 from dlt.sources.filesystem import filesystem
-from pathlib import Path
 import datetime
 import requests
 from dotenv import load_dotenv
@@ -14,8 +13,6 @@ url = "https://external.api.coop.se/dke/offers/252700?api-version=v1&clustered=t
 headers = {
     "ocp-apim-subscription-key": api_key
 }
-
-db_path = Path(__file__).parents[2] / "database/billigaste_kvittot_db.duckdb"
 
 @dlt.source
 def coop_source():
