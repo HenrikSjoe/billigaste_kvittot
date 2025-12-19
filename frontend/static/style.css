@@ -531,10 +531,22 @@ html {
     color: #1a1a2e;
 }
 
+.cart-store-totals {
+    text-align: right;
+}
+
 .cart-store-subtotal {
+    display: block;
     font-size: 18px;
     font-weight: 700;
     color: #2d5a3d;
+}
+
+.cart-store-savings {
+    display: block;
+    font-size: 13px;
+    color: #059669;
+    margin-top: 2px;
 }
 
 .cart-products {
@@ -622,10 +634,22 @@ html {
     color: #64748b;
 }
 
+.cart-total-amounts {
+    text-align: right;
+}
+
 .cart-total-price {
+    display: block;
     font-size: 28px;
     font-weight: 800;
     color: #2d5a3d;
+}
+
+.cart-total-savings {
+    display: block;
+    font-size: 14px;
+    color: #059669;
+    margin-top: 4px;
 }
 
 .cart-actions {

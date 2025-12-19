@@ -222,7 +222,7 @@ def cart():
     con = duckdb.connect(DB_PATH, read_only=True)
     today = date.today().isoformat()
     query = """
-    SELECT store, brand, product_name, promotion_price, unit, image_url
+    SELECT store, brand, product_name, promotion_price, ordinary_price, qualification_quantity, unit, image_url
     FROM marts.marts_all_stores
     WHERE promotion_price IS NOT NULL
       AND end_date >= ?
@@ -242,14 +242,24 @@ def cart():
     # Gruppera per butik
     cart_by_store = {}
     total = 0
+    total_savings = 0
     for p in products:
         store = p["store"]
         if store not in cart_by_store:
-            cart_by_store[store] = {"products": [], "subtotal": 0}
+            cart_by_store[store] = {"products": [], "subtotal": 0, "savings": 0}
         cart_by_store[store]["products"].append(p)
         price = p["promotion_price"] or 0
         cart_by_store[store]["subtotal"] += price
         total += price
+
+        # Beräkna sparande: (qualification_quantity * ordinary_price) - promotion_price
+        qty = int(p.get("qualification_quantity") or 1)
+        ordinary = safe_float(p.get("ordinary_price")) or 0
+        promo = safe_float(p.get("promotion_price")) or 0
+        if ordinary > 0:
+            saving = (qty * ordinary) - promo
+            cart_by_store[store]["savings"] += saving
+            total_savings += saving
 
     # Sortera efter totalsumma (lägst först)
     cart_by_store = dict(sorted(cart_by_store.items(), key=lambda x: x[1]["subtotal"]))
@@ -258,6 +268,7 @@ def cart():
         "cart.html",
         cart_by_store=cart_by_store,
         total=total,
+        total_savings=total_savings,
         cart_count=len(cart_ids),
         store_logos=STORE_LOGOS,
     )
