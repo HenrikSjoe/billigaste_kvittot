@@ -58,9 +58,11 @@ def get_products(filters):
         )
         params.extend(filters["stores"])
 
-    if filters["brand"] and filters["brand"] != "Alla":
-        query += " AND brand = ?"
-        params.append(filters["brand"])
+    if filters["brands"]:
+        query += " AND brand IN ({})".format(
+            ",".join(["?"] * len(filters["brands"]))
+        )
+        params.extend(filters["brands"])
 
     if filters["search"]:
         query += " AND LOWER(product_name) LIKE ?"
@@ -110,28 +112,40 @@ def get_products(filters):
     return products
 
 
-def get_brands():
+def get_brands(stores=None):
     con = duckdb.connect(DB_PATH, read_only=True)
-    brands = con.execute("""
-        SELECT DISTINCT brand
-        FROM marts.marts_all_stores
-        WHERE brand IS NOT NULL
-        ORDER BY brand
-    """).fetchdf()["brand"].tolist()
+
+    if stores:
+        query = """
+            SELECT DISTINCT brand
+            FROM marts.marts_all_stores
+            WHERE brand IS NOT NULL
+              AND store IN ({})
+            ORDER BY brand
+        """.format(",".join(["?"] * len(stores)))
+        brands = con.execute(query, stores).fetchdf()["brand"].tolist()
+    else:
+        brands = con.execute("""
+            SELECT DISTINCT brand
+            FROM marts.marts_all_stores
+            WHERE brand IS NOT NULL
+            ORDER BY brand
+        """).fetchdf()["brand"].tolist()
+
     con.close()
-    return ["Alla"] + brands
+    return brands
 
 
 @app.route("/")
 def index():
     filters = {
         "stores": request.args.getlist("store"),
-        "brand": request.args.get("brand"),
+        "brands": request.args.getlist("brand"),
         "search": request.args.get("search", "").strip(),
     }
 
     products = get_products(filters)
-    brands = get_brands()
+    brands = get_brands(filters["stores"])
 
     return render_template(
         "index.html",
