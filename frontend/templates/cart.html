@@ -2,7 +2,7 @@
 <html lang="sv">
 <head>
     <meta charset="UTF-8">
-    <title>Varukorg - Billigaste Kvittot</title>
+    <title>Inköpslista - Billigaste Kvittot</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
 </head>
 <body>
@@ -13,13 +13,13 @@
             <img src="{{ url_for('static', filename='assets/bk_logo.png') }}" alt="Billigaste Kvittot Logga" class="site-logo">
         </a>
         <a href="{{ url_for('cart') }}" class="cart-link">
-            Varukorg ({{ cart_count }})
+            Inköpslista ({{ cart_count }})
         </a>
     </div>
 </header>
 
 <div class="cart-container">
-    <h1>Din varukorg</h1>
+    <h1>Din inköpslista</h1>
 
     {% if not cart_by_store %}
         <div class="cart-empty">
@@ -32,7 +32,7 @@
             <div class="cart-store-section">
                 <div class="cart-store-header">
                     <img src="{{ url_for('static', filename='assets/' + store_logos.get(store, '')) }}" alt="{{ store }}" class="cart-store-logo">
-                    <h2>{{ store }}</h2>
+                    <h2></h2>
                     <div class="cart-store-totals">
                         <span class="cart-store-subtotal">{{ "%.2f"|format(data.subtotal)|replace(".", ",") }} kr</span>
                         {% if data.savings > 0 %}
@@ -73,7 +73,7 @@
                 </div>
                 <div class="cart-actions">
                     <a href="{{ url_for('index') }}" class="btn-secondary">Fortsätt handla</a>
-                    <a href="{{ url_for('cart_clear') }}" class="btn-danger">Töm varukorg</a>
+                    <a href="{{ url_for('cart_clear') }}" class="btn-danger">Töm inköpslista</a>
                 </div>
             </div>
         </div>

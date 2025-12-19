@@ -58,6 +58,7 @@ def get_products(filters):
     FROM marts.marts_all_stores
     WHERE promotion_price IS NOT NULL
       AND end_date >= ?
+    -- ORDER BY product_name ASC
     """
 
     params = [today]
@@ -118,6 +119,22 @@ def get_products(filters):
 
         # ---- Butikslogga ----
         p["store_logo"] = STORE_LOGOS.get(p.get("store"), "")
+
+        # ---- Beräkna sparande ----
+        qty = p["qualification_quantity"]
+        ordinary = p["ordinary_price"] or 0
+        promo = p["promotion_price"] or 0
+        if ordinary > 0 and promo > 0:
+            saving = (qty * ordinary) - promo
+            if saving > 0:
+                p["savings"] = saving
+                p["savings_fmt"] = f"{saving:.2f}".replace(".", ",")
+            else:
+                p["savings"] = 0
+                p["savings_fmt"] = None
+        else:
+            p["savings"] = 0
+            p["savings_fmt"] = None
 
         # ---- Unikt produkt-ID ----
         p["product_id"] = make_product_id(p["store"], p["product_name"], p["brand"])
