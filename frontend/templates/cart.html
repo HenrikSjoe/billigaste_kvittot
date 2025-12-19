@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>Varukorg - Billigaste Kvittot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-content">
+        <a href="{{ url_for('index') }}" class="logo-link">
+            <img src="{{ url_for('static', filename='assets/bk_logo.png') }}" alt="Billigaste Kvittot Logga" class="site-logo">
+        </a>
+        <a href="{{ url_for('cart') }}" class="cart-link">
+            Varukorg ({{ cart_count }})
+        </a>
+    </div>
+</header>
+
+<div class="cart-container">
+    <h1>Din varukorg</h1>
+
+    {% if not cart_by_store %}
+        <div class="cart-empty">
+            <p>Din varukorg är tom.</p>
+            <a href="{{ url_for('index') }}" class="btn-primary">Fortsätt jämföra</a>
+        </div>
+    {% else %}
+        <div class="cart-content">
+            {% for store, data in cart_by_store.items() %}
+            <div class="cart-store-section">
+                <div class="cart-store-header">
+                    <img src="{{ url_for('static', filename='assets/' + store_logos.get(store, '')) }}" alt="{{ store }}" class="cart-store-logo">
+                    <h2>{{ store }}</h2>
+                    <span class="cart-store-subtotal">{{ "%.2f"|format(data.subtotal)|replace(".", ",") }} kr</span>
+                </div>
+
+                <div class="cart-products">
+                    {% for p in data.products %}
+                    <div class="cart-item">
+                        <img src="{{ p.image_url }}" alt="{{ p.product_name }}" class="cart-item-image">
+                        <div class="cart-item-info">
+                            <h4>{{ p.product_name }}</h4>
+                            <p class="cart-item-brand">{{ p.brand }}</p>
+                        </div>
+                        <div class="cart-item-price">
+                            {{ "%.2f"|format(p.promotion_price)|replace(".", ",") }} kr
+                        </div>
+                        <a href="{{ url_for('cart_remove', product_id=p.product_id) }}" class="cart-item-remove">
+                            Ta bort
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+
+            <div class="cart-summary">
+                <div class="cart-total">
+                    <span>Totalt:</span>
+                    <span class="cart-total-price">{{ "%.2f"|format(total)|replace(".", ",") }} kr</span>
+                </div>
+                <div class="cart-actions">
+                    <a href="{{ url_for('index') }}" class="btn-secondary">Fortsätt handla</a>
+                    <a href="{{ url_for('cart_clear') }}" class="btn-danger">Töm varukorg</a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
