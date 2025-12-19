@@ -19,7 +19,7 @@
 
     <!-- SIDEBAR -->
     <aside class="sidebar">
-        <form method="get" id="filter-form">
+        <form method="get" id="filter-form" action="/">
 
             <h3>Butiker</h3>
             {% for s in ["City Gross", "Coop", "Hemköp", "Willys", ] %}
@@ -48,7 +48,7 @@
 
             <h3>Sök</h3>
             <input type="text" name="search" value="{{ filters.search }}"
-                   placeholder="Tryck Enter för att söka">
+                   placeholder="Tryck Enter för att söka" id="product-search">
 
             <div class="sidebar-actions">
                 <a href="{{ url_for('index') }}" class="btn-secondary">
@@ -120,6 +120,7 @@
 
 <script>
 let brandListOpen = false;
+let brandChanged = false;
 
 function openBrandList() {
     document.getElementById('brand-list').classList.add('open');
@@ -135,11 +136,24 @@ function filterBrands() {
     });
 }
 
+document.querySelectorAll('.brand-item input').forEach(cb => {
+    cb.addEventListener('change', () => { brandChanged = true; });
+});
+
 document.addEventListener('click', function(e) {
     const dropdown = document.querySelector('.brand-dropdown');
     if (!dropdown.contains(e.target) && brandListOpen) {
         document.getElementById('brand-list').classList.remove('open');
         brandListOpen = false;
+        if (brandChanged) {
+            document.getElementById('filter-form').submit();
+        }
+    }
+});
+
+document.getElementById('product-search').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
         document.getElementById('filter-form').submit();
     }
 });
