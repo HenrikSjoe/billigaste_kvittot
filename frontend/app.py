@@ -6,9 +6,9 @@ import datetime
 import os
 import hashlib
 
-BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR.parent / "database" / "billigaste_kvittot_db.duckdb"
-#DB_PATH = Path("/mnt/data/billigaste_kvittot.duckdb")
+#BASE_DIR = Path(__file__).resolve().parent
+#DB_PATH = BASE_DIR.parent / "database" / "billigaste_kvittot_db.duckdb"
+DB_PATH = Path("/mnt/data/billigaste_kvittot.duckdb")
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY", "dev-secret-key-change-in-prod")

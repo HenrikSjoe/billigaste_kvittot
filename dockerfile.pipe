@@ -6,6 +6,7 @@ WORKDIR /pipeline/orchestration
 COPY stores/hemkop/ /pipeline/orchestration/
 COPY stores/willys/ /pipeline/orchestration/
 COPY stores/coop/ /pipeline/orchestration/
+COPY stores/ica/ /pipeline/orchestration/
 COPY stores/city_gross/ /pipeline/orchestration/
 COPY dbt_billigaste_kvittot/ /pipeline/dbt_billigaste_kvittot/
 COPY orchestration/ /pipeline/orchestration/
